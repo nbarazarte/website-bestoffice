@@ -168,12 +168,6 @@
 			</section>
 			<!-- / -->
 
-
-
-
-
-
-
 			<!-- WELCOME -->
 			<section>
 				<div class="container">
@@ -265,32 +259,40 @@
 			<!-- /WELCOME -->
 
 
+			<!-- PARALLAX -->
+			<section class="parallax " style="background-image: url('smarty/HTML/assets/images/demo/paper-184920_1920.jpg');">
+				<div class="overlay dark-1"><!-- dark overlay [0 to 9 opacity] --></div>
 
-
-
-<!-- CALLOUT -->
-			<section class="callout-dark heading-title heading-arrow-bottom"><!-- style="background-color: #87bb4d"-->
 				<div class="container">
-					<header class="text-center">
-						<h1 class="weight-300 size-40">Nuestros Productos</h1>
-						<h2 class="weight-300 letter-spacing-1 size-13"><span>WE TRULY CARE ABOUT OUR CUSTOMERS</span></h2>
-					</header>
+
+
+
+					<div class="owl-carousel text-center owl-testimonial nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 3000, "navigation": false, "pagination": true}'>
+							
+						<div class="text-center">
+							<h3 class="nomargin">Conoce Nuestros Productos</h3>
+							<p class="font-lato weight-300 lead nomargin-top">Gran variedad en papelería, artículos de oficina y material escolar.</p>
+						</div>
+
+						<div class="text-center">
+							<h3 class="nomargin">Las Mejores Marcas</h3>
+							<p class="font-lato weight-300 lead nomargin-top">Nuevas y mejores alternativas en productos.</p>
+						</div>
+
+					</div>
+
 
 				</div>
+
 			</section>
-			<!-- /CALLOUT -->
-
-
-
-
-
+			<!-- /PARALLAX -->
 
 			<!-- FEATURED -->
 			<section>
 				<div class="container">
 
-					<h2 class="owl-featured noborder"><strong>FEATURED</strong> PRODUCTS</h2>
-					<div class="owl-carousel featured nomargin owl-padding-10" data-plugin-options='{"singleItem": false, "items": "4", "stopOnHover":false, "autoPlay":4000, "autoHeight": false, "navigation": true, "pagination": false}'>
+					<h2 class="owl-featured noborder"><strong>PRODUCTOS</strong> DESTACADOS</h2>
+					<div class="owl-carousel featured nomargin owl-padding-10" data-plugin-options='{"singleItem": false, "items": "5", "stopOnHover":false, "autoPlay":4000, "autoHeight": false, "navigation": true, "pagination": false}'>
 
 						<!-- item -->
 						<div class="shop-item nomargin">

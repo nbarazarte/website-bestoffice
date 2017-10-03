@@ -37,7 +37,7 @@
 
 						<!-- Logo -->
 						<a class="logo pull-left" href="index.html">
-							<img src="smarty/HTML/assets/images/best_office_logo2.png" alt="" style="height: 70%" />
+							<img src="smarty/HTML/assets/images/logoBestOffice.png" alt="" />
 						</a>
 
 						<!-- 
