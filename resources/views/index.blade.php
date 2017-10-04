@@ -896,14 +896,10 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/header_bg_img.jpg" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="smarty/HTML/assets/images/demo/mockups/1200x800/header_bg_img.jpg" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
-											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
-												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
-											</a>
 
 										</span>
 									</span>
@@ -930,14 +926,11 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/office-2070806_1920.jpg" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="smarty/HTML/assets/images/demo/mockups/1200x800/office-2070806_1920.jpg" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
-											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
-												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
-											</a>
+
 
 										</span>
 									</span>
@@ -964,14 +957,10 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/office-2525669_1920.jpg" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="smarty/HTML/assets/images/demo/mockups/1200x800/office-2525669_1920.jpg" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
-											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
-												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
-											</a>
 
 										</span>
 									</span>
@@ -998,14 +987,11 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/colorful-2557697_1280.jpg" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="smarty/HTML/assets/images/demo/mockups/1200x800/colorful-2557697_1280.jpg" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
-											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
-												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
-											</a>
+
 
 										</span>
 									</span>
@@ -1032,14 +1018,11 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/binder-1277032_1920.jpg" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="smarty/HTML/assets/images/demo/mockups/1200x800/binder-1277032_1920.jpg" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
-											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
-												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
-											</a>
+
 
 										</span>
 									</span>
@@ -1065,13 +1048,8 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/office-1021419_1920.jpg" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="smarty/HTML/assets/images/demo/mockups/1200x800/office-1021419_1920.jpg" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
-											</a>
-
-											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
-												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
 											</a>
 
 										</span>
@@ -1100,14 +1078,11 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/20150506_112843.png" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="smarty/HTML/assets/images/demo/mockups/1200x800/20150506_112843.png" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
-											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
-												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
-											</a>
+
 
 										</span>
 									</span>
@@ -1134,14 +1109,10 @@
 										<span class="inner">
 
 											<!-- lightbox -->
-											<a class="ico-rounded lightbox" href="assets/images/demo/mockups/1200x800/HP-80A-CF280A-Black-Laser-Toner-Cartridge-by-MSE.jpg" data-plugin-options='{"type":"image"}'>
+											<a class="ico-rounded lightbox" href="smarty/HTML/assets/images/demo/mockups/1200x800/HP-80A-CF280A-Black-Laser-Toner-Cartridge-by-MSE.jpg" data-plugin-options='{"type":"image"}'>
 												<span class="fa fa-plus size-20"></span>
 											</a>
 
-											<!-- details -->
-											<a class="ico-rounded" href="portfolio-single-slider.html">
-												<span class="glyphicon glyphicon-option-horizontal size-20"></span>
-											</a>
 
 										</span>
 									</span>
