@@ -134,5 +134,37 @@
 		<!-- PAGE LEVEL SCRIPTS -->
 		{!! Html::script('smarty/HTML/assets/js/view/demo.shop.js') !!}
 
+
+			<!-- 
+				GMAP.JS 
+				http://hpneo.github.io/gmaps/
+			-->
+			<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDn4Fqtci9trC4i6iJjbC-UfdnwONchtQ0"></script>
+
+			{!! Html::script('smarty/HTML/assets/plugins/gmaps.min.js') !!}
+			<script type="text/javascript">
+
+				jQuery(document).ready(function(){
+
+					/**
+						@BASIC GOOGLE MAP
+					**/
+					var map2 = new GMaps({
+						div: '#map2',
+						lat: 10.498705,
+						lng: -66.788824,
+						scrollwheel: false
+					});
+
+					var marker = map2.addMarker({
+						lat: 10.498705,
+						lng: -66.788824,
+						title: 'best office'
+					});
+
+				});
+
+			</script>	
+
 	</body>
 </html>

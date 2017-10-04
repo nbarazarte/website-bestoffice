@@ -6,57 +6,53 @@
 		<!-- wrapper -->
 		<div id="wrapper">
 
+		<!-- SLIDER -->
+		<section id="slider" class=""></section>
 			<!-- Top Bar -->
 			<div id="topBar">
 				<div class="container">
 
 					<!-- right -->
 					<ul class="top-links list-inline pull-right">
-						<li class="text-welcome hidden-xs">Welcome to Smarty, <strong>John Doe</strong></li>
+						<li class="text-welcome hidden-xs">Bienvenido a Best Office, <strong>Neil Barazarte</strong></li>
 						<li>
-							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><i class="fa fa-user hidden-xs"></i> MY ACCOUNT</a>
+							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><i class="fa fa-user hidden-xs"></i> Mi Cuenta</a>
 							<ul class="dropdown-menu pull-right">
-								<li><a tabindex="-1" href="#"><i class="fa fa-history"></i> ORDER HISTORY</a></li>
+								<li><a tabindex="-1" href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Comprar</a></li>
 								<li class="divider"></li>
-								<li><a tabindex="-1" href="#"><i class="fa fa-bookmark"></i> MY WISHLIST</a></li>
-								<li><a tabindex="-1" href="#"><i class="fa fa-edit"></i> MY REVIEWS</a></li>
-								<li><a tabindex="-1" href="#"><i class="fa fa-cog"></i> MY SETTINGS</a></li>
+								<li><a tabindex="-1" href="#"><i class="fa fa-list-ol" aria-hidden="true"></i> Lista de Compras</a></li>
+								<li><a tabindex="-1" href="#"><i class="fa fa-cog"></i> Configuración</a></li>
 								<li class="divider"></li>
-								<li><a tabindex="-1" href="#"><i class="glyphicon glyphicon-off"></i> LOGOUT</a></li>
+								<li><a tabindex="-1" href="#"><i class="glyphicon glyphicon-off"></i> Salir</a></li>
 							</ul>
 						</li>
 					</ul>
 
 					<!-- left -->
 					<ul class="top-links list-inline">
-						<li class="hidden-xs"><a href="page-contact-1.html">CONTACT</a></li>
+						<li class="hidden-xs"><a href="#">IDIOMA</a></li>
 						<li>
-							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a>
+							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/es.png" width="16" height="11" alt="lang" /> ESPAÑOL</a>
+
 							<ul class="dropdown-langs dropdown-menu">
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a></li>
+								<li><a tabindex="-1" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/us.png" width="16" height="11" alt="lang" /> INGLÉS</a></li>
 								<li class="divider"></li>
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/de.png" width="16" height="11" alt="lang" /> GERMAN</a></li>
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/ru.png" width="16" height="11" alt="lang" /> RUSSIAN</a></li>
-								<li><a tabindex="-1" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/it.png" width="16" height="11" alt="lang" /> ITALIAN</a></li>
+								<li><a tabindex="-1" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/es.png" width="16" height="11" alt="lang" /> ESPAÑOL</a></li>
+	
 							</ul>
 						</li>
-						<li>
-							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#">USD</a>
-							<ul class="dropdown-langs dropdown-menu">
-								<li><a tabindex="-1" href="#">USD</a></li>
-								<li class="divider"></li>
-								<li><a tabindex="-1" href="#">EUR</a></li>
-								<li><a tabindex="-1" href="#">GBP</a></li>
-							</ul>
-						</li>
+
 					</ul>
 
 				</div>
 			</div>
 			<!-- /Top Bar -->
 
-		@include('menu')
-		@include('slider')
+			@include('menu')
+
+
+			@include('slider')
+		
 
 <!-- 
 	INFO BAR 
@@ -92,29 +88,91 @@
 </section>
 <!-- /INFO BAR -->
 
-<!-- WELCOME -->
-<section class="nopadding-bottom">
-	<div class="container">
-		<header class="text-center margin-bottom-40">
-			<h1 class="weight-300">Chamex</h1>
-			<h2 class="weight-300 letter-spacing-1 size-13"><span>INTERNATIONAL PAPER</span></h2>
-		</header>
 
-		<div class="text-center">
-			<p class="lead">
-				Es líder global en empaques y papel con operaciones de fabricación en Norteamérica, Europa, Latinoamérica, Rusia, Asia y Norte de África, sus productos, las líneas de papeles para imprimir y escribir Chamex y Chamequito están 100% producidos a partir de cultivos de eucaliptos certificados.
-			</p>
 
-			<div class="margin-top-40">
-				<img class="img-responsive" src="smarty/HTML/assets/images/demo/index/papelchamex.png" alt="welcome" />
+			<!-- HOME -->
+			<section id="best">
+						
+				<div class="container text-center">
+					
+					<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Best Office</h1>
+					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Presencia en Venezuela y próximamente en Guatemala City</p>
+					
+					<div class="text-center">
+						<p class="lead">
+							Tenemos un gran surtido de productos para cubrir sus necesidades de útiles escolares, oficina y papelería al mejor precio del mercado. Realizamos ventas únicamente al mayor con despacho directo a la Gran Caracas. Realizamos la gestión de su envío al interior del país con reconocidas empresas de flete.
+						</p>
+
+					</div>
+
+
+
+<!-- 
+				controlls-over		= navigation buttons over the image 
+				buttons-autohide 	= navigation buttons visible on mouse hover only
+				
+				data-plugin-options:
+					"singleItem": true
+					"autoPlay": true (or ms. eg: 4000)
+					"navigation": true
+					"pagination": true
+			-->
+			<div class="text-center margin-top-30 margin-bottom-30">
+				<div class="owl-carousel nomargin" data-plugin-options='{"items":6, "singleItem": false, "autoPlay": true}'>
+					<div>
+						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/domesa.png" alt="">
+					</div>
+					<div>
+						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/tealca.png" alt="">
+					</div>
+					<div>
+						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/mailBoxes.png" alt="">
+					</div>
+					<div>
+						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/mrw.png" alt="">
+					</div>
+					<div>
+						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/domesa.png" alt="">
+					</div>
+					<div>
+						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/tealca.png" alt="">
+					</div>
+					<div>
+						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/mailBoxes.png" alt="">
+					</div>
+					<div>
+						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/mrw.png" alt="">
+					</div>
+				</div>
 			</div>
 
-		</div>
-	</div>
-</section>
-<!-- /WELCOME -->
 
 
+
+
+
+
+
+					<div class="row margin-top-100 text-left">
+
+						<div class="col-sm-8">
+							<img class="img-responsive" src="smarty/HTML/assets/images/demo/background-2091.jpg" alt="product image" />
+						</div>
+
+						<div class="col-sm-4">
+							<h3 class="weight-300">Calidad y <span>Rendimiento</span></h3>
+						
+							<p style="text-align: justify;">Ofrecemos a las micro, pequeñas, medianas y grandes empresas, así como negocios y particulares productos de alta calidad y rendimiento, respaldados 100% por nuestros fabricantes, comprometidos con la excelencia, enfocados en la satisfacción del cliente, por ello, nuestro equipo de expertos siempre ofrecerá el mejor servicio y esmero en dar la confianza que todo proveedor debe otorgar a sus clientes.</p>
+
+							<p style="text-align: justify;">Queremos ser tu aliado ya que contamos con el respaldo de los mejores fabricantes, no te hará falta nada para ser mejor y más eficiente.</p>
+							
+							<hr />
+
+
+						</div>
+					</div>
+
+				</div>
 
 
 			<!-- -->
@@ -126,12 +184,12 @@
 						<div class="col-md-4">
 
 							<div class="box-icon box-icon-side box-icon-color box-icon-round">
-								<i class="fa fa-tablet"></i>
+								<i class="fa fa-map" aria-hidden="true"></i>
 								<a class="box-icon-title" href="#">
-									<h2>Fully Reposnive</h2>
+									<h2>Misión</h2>
 								</a>
-								<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-								<a class="box-icon-more font-lato weight-300" href="#">Learn More</a>
+								<p style="text-align: justify;">Satisfacer las necesidades de abastecimiento, con nuevas y mejores alternativas, ampliando cada día nuestra gama de productos, brindando confianza y a su vez obtener desarrollo y prestigio en el mercado.</p>
+								
 							</div>
 
 						</div>
@@ -139,12 +197,12 @@
 						<div class="col-md-4">
 
 							<div class="box-icon box-icon-side box-icon-color box-icon-round">
-								<i class="fa fa-tint"></i>
+								<i class="fa fa-eye" aria-hidden="true"></i>
 								<a class="box-icon-title" href="#">
-									<h2>Reusable Elements</h2>
+									<h2>Visión</h2>
 								</a>
-								<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-								<a class="box-icon-more font-lato weight-300" href="#">Learn More</a>
+								<p style="text-align: justify;">Ser una empresa reconocida a nivel Nacional e Internacional, contando con una excelente estructura administrativa y comercial de manera que nos haga ser la mejor opción en el mercado.</p>
+								
 							</div>
 
 						</div>
@@ -152,12 +210,12 @@
 						<div class="col-md-4">
 
 							<div class="box-icon box-icon-side box-icon-color box-icon-round">
-								<i class="fa fa-cogs"></i>
+								<i class="fa fa-trophy" aria-hidden="true"></i>
 								<a class="box-icon-title" href="#">
-									<h2>Multipurpose</h2>
+									<h2>Valores</h2>
 								</a>
-								<p>Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-								<a class="box-icon-more font-lato weight-300" href="#">Learn More</a>
+								<p style="text-align: justify;">Honestidad, Responsabilidad, Calidad, Respeto, Lealtad y Eficiencia.</p>
+								
 							</div>
 
 						</div>
@@ -168,8 +226,66 @@
 			</section>
 			<!-- / -->
 
-			<!-- WELCOME -->
-			<section>
+			</section>
+			<!-- /HOME -->
+
+
+
+
+
+			<!-- PARALLAX -->
+			<section id="marcas" class="parallax " style="background-image: url('smarty/HTML/assets/images/demo/paper-184920_1920.jpg');">
+				<div class="overlay dark-1"><!-- dark overlay [0 to 9 opacity] --></div>
+
+				<div class="container">
+
+					<div class="owl-carousel text-center owl-testimonial nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 3000, "navigation": false, "pagination": true}'>
+							
+						<div class="text-center">
+							<h3 class="nomargin">Marcas</h3>
+							<p class="font-lato weight-300 lead nomargin-top">Gran variedad de marcas en papelería, artículos de oficina y material escolar.</p>
+						</div>
+
+						<div class="text-center">
+							<h3 class="nomargin">International Paper Chamex</h3>
+						</div>
+
+						<div class="text-center">
+							<h3 class="nomargin">Premium Laser Toner Cartridge</h3>
+						</div>
+
+					</div>
+
+
+				</div>
+
+			</section>
+			<!-- /PARALLAX -->
+
+			<!-- chamex -->
+			<section id="chamex" class="nopadding-bottom">
+				<div class="container">
+					<header class="text-center margin-bottom-40">
+						<h1 class="weight-300">Chamex</h1>
+						<h2 class="weight-300 letter-spacing-1 size-13"><span>INTERNATIONAL PAPER</span></h2>
+					</header>
+
+					<div class="text-center">
+						<p class="lead">
+							Es líder global en empaques y papel con operaciones de fabricación en Norteamérica, Europa, Latinoamérica, Rusia, Asia y Norte de África, sus productos, las líneas de papeles para imprimir y escribir Chamex y Chamequito están 100% producidos a partir de cultivos de eucaliptos certificados.
+						</p>
+
+						<div class="margin-top-40">
+							<img class="img-responsive" src="smarty/HTML/assets/images/demo/index/papelchamex.png" alt="welcome" />
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- /chamex -->
+
+			<!-- premiun -->
+			<section id="premium">
 				<div class="container">
 
 					<div class="row">
@@ -256,21 +372,19 @@
 					</div>
 				</div>
 			</section>
-			<!-- /WELCOME -->
+			<!-- /premiun -->
 
 
 			<!-- PARALLAX -->
-			<section class="parallax " style="background-image: url('smarty/HTML/assets/images/demo/paper-184920_1920.jpg');">
+			<section id="productos" class="parallax " style="background-image: url('smarty/HTML/assets/images/demo/pen-2373521_1920.jpg');">
 				<div class="overlay dark-1"><!-- dark overlay [0 to 9 opacity] --></div>
 
 				<div class="container">
 
-
-
 					<div class="owl-carousel text-center owl-testimonial nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 3000, "navigation": false, "pagination": true}'>
 							
 						<div class="text-center">
-							<h3 class="nomargin">Conoce Nuestros Productos</h3>
+							<h3 class="nomargin">Productos</h3>
 							<p class="font-lato weight-300 lead nomargin-top">Gran variedad en papelería, artículos de oficina y material escolar.</p>
 						</div>
 
@@ -281,17 +395,16 @@
 
 					</div>
 
-
 				</div>
 
 			</section>
 			<!-- /PARALLAX -->
 
-			<!-- FEATURED -->
-			<section>
+			<!-- PRODUCTOS -->
+			<section >
 				<div class="container">
 
-					<h2 class="owl-featured noborder"><strong>PRODUCTOS</strong> DESTACADOS</h2>
+					<h2 class="owl-featured noborder"><strong>PRODUCTOS</strong> </h2>
 					<div class="owl-carousel featured nomargin owl-padding-10" data-plugin-options='{"singleItem": false, "items": "5", "stopOnHover":false, "autoPlay":4000, "autoHeight": false, "navigation": true, "pagination": false}'>
 
 						<!-- item -->
@@ -299,7 +412,7 @@
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/20150429_130130.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -334,7 +447,7 @@
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/20150429_130231.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -364,14 +477,12 @@
 						</div>
 						<!-- /item -->
 
-
-
 						<!-- item -->
 						<div class="shop-item nomargin">
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/20150429_130705.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -401,13 +512,12 @@
 						</div>
 						<!-- /item -->
 
-
 						<!-- item -->
 						<div class="shop-item nomargin">
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/20150502_124532.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -437,14 +547,12 @@
 						</div>
 						<!-- /item -->
 
-
-
 						<!-- item -->
 						<div class="shop-item nomargin">
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/colors.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -474,20 +582,12 @@
 						</div>
 						<!-- /item -->
 
-
-
-
-
-
-
-
-
 						<!-- item -->
 						<div class="shop-item nomargin">
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/hammermill-multi-purpose.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -517,14 +617,12 @@
 						</div>
 						<!-- /item -->
 
-
-
 						<!-- item -->
 						<div class="shop-item nomargin">
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/reprograf2.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -559,7 +657,7 @@
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/report-premium2.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -589,14 +687,12 @@
 						</div>
 						<!-- /item -->
 
-
-
 						<!-- item -->
 						<div class="shop-item nomargin">
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/pelikan2.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -626,17 +722,12 @@
 						</div>
 						<!-- /item -->
 
-
-
-
-
-
-					<!-- item -->
+						<!-- item -->
 						<div class="shop-item nomargin">
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/postit.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -666,15 +757,12 @@
 						</div>
 						<!-- /item -->
 
-
-
-
-					<!-- item -->
+						<!-- item -->
 						<div class="shop-item nomargin">
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/cuaderno-tapa-dura.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -704,12 +792,12 @@
 						</div>
 						<!-- /item -->
 
-					<!-- item -->
+						<!-- item -->
 						<div class="shop-item nomargin">
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/cuaderno-A4-22.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -739,24 +827,12 @@
 						</div>
 						<!-- /item -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-					<!-- item -->
+						<!-- item -->
 						<div class="shop-item nomargin">
 
 							<div class="thumbnail">
 								<!-- product image(s) -->
-								<a class="shop-item-image" href="shop-single-left.html">
+								<a class="shop-item-image" href="#">
 									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/toner2.png" alt="shop first image" />
 								</a>
 								<!-- /product image(s) -->
@@ -786,40 +862,19 @@
 						</div>
 						<!-- /item -->
 
-
-						
-
-						
-
 					</div>
 
 				</div>
 			</section>
-			<!-- /FEATURED -->
+			<!-- /PRODUCTOS -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- CALLOUT -->
-			<section class="callout-dark heading-title heading-arrow-bottom">
+			<!-- CALLOUT -->
+			<section id="promociones" class="paralax callout-dark heading-title heading-arrow-bottom">
 				<div class="container">
 
 					<header class="text-center">
 						<h1 class="weight-300 size-40">Promociones</h1>
-						<h2 class="weight-300 letter-spacing-1 size-13" style="color: #ffffff"><span>SABEMOS LO QUE BUSCAS</span></h2>
+						<h2 class="weight-300 letter-spacing-1 size-13" ><span style="color: #ffffff">SABEMOS LO QUE BUSCAS</span></h2>
 					</header>
 
 				</div>
@@ -827,9 +882,7 @@
 			<!-- /CALLOUT -->
 
 
-
-
-			<!-- WORK -->
+			<!-- PROMOCIONES -->
 			<section class="nopadding">
 				<div id="portfolio" class="portfolio-nogutter">
 					<div class="row mix-grid">
@@ -1109,28 +1162,10 @@
 
 				</div>
 			</section>
-			<!-- /WORK -->
+			<!-- /PROMOCIONES -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-			
-
-
-
-
-
-			<!-- PARALLAX -->
-			<section class="parallax parallax-2" style="background-image: url('smarty/HTML/assets/images/demo/1200x800/paperclip-168336_1920.jpg');">
+			<!-- REDES -->
+			<section id="redes" class="parallax parallax-2" style="background-image: url('smarty/HTML/assets/images/demo/1200x800/paperclip-168336_1920.jpg');">
 				<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 
 				<div class="container">
@@ -1150,31 +1185,33 @@
 							</a>-->
 						</li>
 						<li>
-							<a target="_blank" href="#">
-								<i class="fa fa-twitter"></i>
-								<h4>Twitter</h4>
-								<span>Follow Us</span>
-							</a>
-						</li>
-						<li>
-							<a target="_blank" href="#">
+								&nbsp;
+							<!--<a target="_blank" href="#">
 								<i class="fa fa-facebook"></i>
 								<h4>Facebook</h4>
 								<span>Be Our Friend</span>
-							</a>
+							</a>-->
 						</li>
 						<li>
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://twitter.com/bestofficevzla">
+								<i class="fa fa-twitter"></i>
+								<h4>Twitter</h4>
+								<span>Síguenos</span>
+							</a>
+						</li>
+
+						<li>
+							<a target="_blank" href="https://www.instagram.com/bestofficevzla/">
 								<i class="fa fa-instagram"></i>
 								<h4>Instagram</h4>
-								<span>See Our Images</span>
+								<span>Ve nuestras imágenes</span>
 							</a>
 						</li>
 						<li>
-							<a target="_blank" href="#">
+							<a target="_blank" href="https://www.linkedin.com/company/bestofficevzla">
 								<i class="fa fa-linkedin"></i>
 								<h4>Linkedin</h4>
-								<span>Check Our Identity</span>
+								<span>Únete a nosotros</span>
 							</a>
 						</li>
 
@@ -1192,56 +1229,10 @@
 				</div>
 
 			</section>
-			<!-- /PARALLAX -->
+			<!-- /REDES -->
 
 
-
-
-			
-
-
-			
-
-
-			<!-- 
-				controlls-over		= navigation buttons over the image 
-				buttons-autohide 	= navigation buttons visible on mouse hover only
-				
-				data-plugin-options:
-					"singleItem": true
-					"autoPlay": true (or ms. eg: 4000)
-					"navigation": true
-					"pagination": true
-			-->
-			<div class="text-center margin-top-30 margin-bottom-30">
-				<div class="owl-carousel nomargin" data-plugin-options='{"items":6, "singleItem": false, "autoPlay": true}'>
-					<div>
-						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/1.jpg" alt="">
-					</div>
-					<div>
-						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/2.jpg" alt="">
-					</div>
-					<div>
-						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/3.jpg" alt="">
-					</div>
-					<div>
-						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/4.jpg" alt="">
-					</div>
-					<div>
-						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/5.jpg" alt="">
-					</div>
-					<div>
-						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/6.jpg" alt="">
-					</div>
-					<div>
-						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/7.jpg" alt="">
-					</div>
-					<div>
-						<img class="img-responsive" src="smarty/HTML/assets/images/demo/brands/8.jpg" alt="">
-					</div>
-				</div>
-			</div>
-
+			@include('contactanos')
 			@include('footer')
 
 		</div>

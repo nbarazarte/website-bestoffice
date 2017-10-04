@@ -20,3 +20,23 @@ Route::get('/', function () {
 Route::get('/', function () {
     return view('index');
 });
+
+Route::put('Enviando', [
+		'uses' => 'HomeController@enviar',
+		'as' =>'enviar'
+]);
+
+Route::put('Enviando-CV', [
+		'uses' => 'HomeController@enviarTrabaja',
+		'as' =>'enviarTrabaja'
+]);	
+	
+Route::get('/Mapa-del-Sitio', [
+	'uses' => 'HomeController@mapa',
+	'as' =>'mapa'
+]);
+
+Route::get('/Trabaja-con-Nosotros', [
+	'uses' => 'HomeController@trabaja',
+	'as' =>'trabaja'
+]);	

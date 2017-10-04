@@ -24,8 +24,7 @@
 
 				Example Usage:  class="clearfix sticky header-sm transparent noborder"
 			-->
-			<div id="header" class="sticky shadow-after-3 clearfix">
-
+			<div id="header" class="sticky bottom header-sm  clearfix">
 				<!-- TOP NAV -->
 				<header id="topNav">
 					<div class="container">
@@ -36,7 +35,7 @@
 						</button>
 
 						<!-- Logo -->
-						<a class="logo pull-left" href="index.html">
+						<a class="logo pull-left scrollTo" href="#top">
 							<img src="smarty/HTML/assets/images/logoBestOffice.png" alt="" />
 						</a>
 
@@ -46,7 +45,7 @@
 							AVAILABLE CLASSES:
 							submenu-dark = dark sub menu
 						-->
-						<div class="navbar-collapse pull-right nav-main-collapse collapse">
+						<div class="navbar-collapse pull-right nav-main-collapse collapse submenu-dark">
 							<nav class="nav-main">
 
 								<!-- 
@@ -61,17 +60,43 @@
 											INICIO
 										</a>
 									</li>
+
+									<li><!-- BEST OFFICE -->
+										<a href="#best">
+											BEST OFFICE
+										</a>
+									</li>
+
 									<li class="dropdown"><!-- ABOUT -->
-										<a class="dropdown-toggle" href="#">
-											ABOUT
+										<a class="dropdown-toggle" href="#marcas">
+											MARCAS
 										</a>
 										<ul class="dropdown-menu">
-											<li><a href="#about">ABOUT SMARTY</a></li>
-											<li><a href="#skills">OUR SKILLS</a></li>
+											<li><a href="#chamex">CHAMEX</a></li>
+											<li><a href="#premium">PREMIUM LASER TONER</a></li>
 										</ul>
 									</li>
+
+									<li><!-- PRODUCTOS -->
+										<a href="#productos">
+											PRODUCTOS
+										</a>
+									</li>
+
+									<li><!-- PRODUCTOS -->
+										<a href="#promociones">
+											PROMOCIONES
+										</a>
+									</li>
+
+									<li><!-- REDES SOCIALES -->
+										<a href="#redes">
+											REDES SOCIALES
+										</a>
+									</li>
+
 									<li><!-- CONTACT -->
-										<a href="#contact">
+										<a href="#contacto">
 											CONTÁCTANOS
 										</a>
 									</li>
@@ -85,3 +110,6 @@
 				<!-- /Top Nav -->
 
 			</div>
+
+
+

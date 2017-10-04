@@ -28,7 +28,7 @@
 						data-height="750"
 						data-height="800"
 				-->
-				<div class="fullwidthbanner" data-height="600" data-shadow="0" data-navigationStyle="">
+				<div class="fullwidthbanner" data-height="600" data-shadow="0" data-navigationStyle="preview5">
 					<ul class="hide">
 
 					<!-- SLIDE 1 -->
@@ -362,7 +362,7 @@
 
 							<div class="tp-caption lfb" 
 								data-x="right" data-hoffset="-70" 
-								data-y="80" 
+								data-y="5" 
 								data-speed="2000" 
 								data-start="500" 
 								data-easing="easeOutExpo" 
@@ -444,13 +444,10 @@
 							</div>
 						</li>
 
+					<!-- SLIDE  -->
 
+					<!-- SLIDE 6 -->
 
-
-
-
-
-<!-- SLIDE 6 -->
 						<li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off"  data-title="Slide">
 
 							<img src="smarty/HTML/assets/images/1x1.png" data-lazyload="smarty/HTML/assets/images/backgrounds/marker-2082842_1920.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
@@ -513,27 +510,7 @@
 
 						</li>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+					<!-- SLIDE -->
 
 					<!-- SLIDE 7 -->
 
