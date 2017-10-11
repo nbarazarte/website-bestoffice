@@ -58,6 +58,7 @@
 	<body class="smoothscroll enable-animation">
 
 		<!-- SLIDE TOP -->
+		<!--
 		<div id="slidetop">
 
 			<div class="container">
@@ -93,9 +94,10 @@
 
 			</div>
 
-			<a class="slidetop-toggle" href="#"><!-- toggle button --></a>
+			<a class="slidetop-toggle" href="#"> -- toggle button -- </a>
 
 		</div>
+	-->
 		<!-- /SLIDE TOP -->
 
 

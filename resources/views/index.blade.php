@@ -13,6 +13,7 @@
 				<div class="container">
 
 					<!-- right -->
+					<!--
 					<ul class="top-links list-inline pull-right">
 						<li class="text-welcome hidden-xs">Bienvenido a Best Office, <strong>Neil Barazarte</strong></li>
 						<li>
@@ -27,6 +28,7 @@
 							</ul>
 						</li>
 					</ul>
+					-->
 
 					<!-- left -->
 					<ul class="top-links list-inline">
@@ -34,12 +36,15 @@
 						<li>
 							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/es.png" width="16" height="11" alt="lang" /> ESPAÑOL</a>
 
+							<!--
 							<ul class="dropdown-langs dropdown-menu">
 								<li><a tabindex="-1" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/us.png" width="16" height="11" alt="lang" /> INGLÉS</a></li>
 								<li class="divider"></li>
 								<li><a tabindex="-1" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/es.png" width="16" height="11" alt="lang" /> ESPAÑOL</a></li>
 	
 							</ul>
+							-->
+
 						</li>
 
 					</ul>
@@ -73,13 +78,13 @@
 			<div class="col-sm-4">
 				<i class="glyphicon glyphicon-usd"></i>
 				<h3>PRECIOS COMPETITIVOS</h3>
-				<p>Tenemos un gran surtido de productos para cubrir sus necesidades</p>
+				<p>Tenemos un gran surtido de productos</p>
 			</div>
 
 			<div class="col-sm-4">
 				<i class="fa fa-truck" aria-hidden="true"></i>
 				<h3>ENVÍOS AL INTERIOR DEL PAÍS</h3>
-				<p>Realizamos la gestión de su envío con reconocidas empresas de flete</p>
+				<p>Con reconocidas empresas de flete</p>
 			</div>
 
 		</div>
@@ -233,26 +238,17 @@
 
 			<!-- PARALLAX -->
 			<section id="marcas" class="parallax " style="background-image: url('smarty/HTML/assets/images/demo/paper-571937_1920.jpg');">
+
 				<div class="overlay dark-1"><!-- dark overlay [0 to 9 opacity] --></div>
 
 				<div class="container">
 
 					<div class="owl-carousel text-center owl-testimonial nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 3000, "navigation": false, "pagination": true}'>
 							
-						<div class="text-center">
-							<h3 class="nomargin">Gran variedad de marcas</h3>
-						</div>
 
 						<div class="text-center">
-							<h3 class="nomargin">en papelería</h3>
-						</div>
-
-						<div class="text-center">
-							<h3 class="nomargin">artículos de oficina</h3>
-						</div>
-
-						<div class="text-center">
-							<h3 class="nomargin">y material escolar</h3>
+							<h3 class="nomargin">Las Mejores Marcas</h3>
+							<p class="font-lato weight-300 lead nomargin-top">Gran variedad en papelería, artículos de oficina y material escolar.</p>
 						</div>
 
 					</div>
@@ -504,10 +500,6 @@
 			</section>
 			<!-- /reprograf -->
 
-
-
-
-
 			<!-- PARALLAX -->
 			<section id="productos" class="parallax " style="background-image: url('smarty/HTML/assets/images/demo/pen-2373521_1920.jpg');">
 				<div class="overlay dark-1"><!-- dark overlay [0 to 9 opacity] --></div>
@@ -517,13 +509,8 @@
 					<div class="owl-carousel text-center owl-testimonial nomargin" data-plugin-options='{"singleItem": true, "autoPlay": 3000, "navigation": false, "pagination": true}'>
 							
 						<div class="text-center">
-							<h3 class="nomargin">Productos</h3>
-							<p class="font-lato weight-300 lead nomargin-top">Gran variedad en papelería, artículos de oficina y material escolar.</p>
-						</div>
-
-						<div class="text-center">
-							<h3 class="nomargin">Las Mejores Marcas</h3>
-							<p class="font-lato weight-300 lead nomargin-top">Nuevas y mejores alternativas en productos.</p>
+							<h3 class="nomargin">Nuestros Productos</h3>
+							<p class="font-lato weight-300 lead nomargin-top">Nuevas y mejores alternativas.</p>
 						</div>
 
 					</div>
@@ -537,7 +524,7 @@
 			<section >
 				<div class="container">
 
-					<h2 class="owl-featured noborder"><strong>PRODUCTOS</strong> </h2>
+					<h2 class="owl-featured noborder"><strong>Los más destacados</strong> </h2>
 					<div class="owl-carousel featured nomargin owl-padding-10" data-plugin-options='{"singleItem": false, "items": "5", "stopOnHover":false, "autoPlay":4000, "autoHeight": false, "navigation": true, "pagination": false}'>
 
 						<!-- item -->
