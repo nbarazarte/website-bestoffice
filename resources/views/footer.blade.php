@@ -15,7 +15,7 @@
 
 								</li>
 
-								<li>El nombre y logo de best office son marcas registradas.</li>
+								<li>El nombre y logo de best office son marcas registradas. J-409988708</li>
 								
 							</ul>
 
@@ -70,7 +70,7 @@
 
 								</li>
 
-								<li>Desarrollado por B&G Technologies<br>S.A. J-405498633</li>
+								<li>B&G Technologies<br>S.A. J-405498633</li>
 								
 							</ul>
 

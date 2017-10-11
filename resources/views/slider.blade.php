@@ -1,5 +1,5 @@
 			<!-- REVOLUTION SLIDER -->
-			<div class="slider fullwidthbanner-container roundedcorners">
+			<div class="slider fullwidthbanner-container roundedcorners" style="z-index: -1;">
 				<!--
 					Navigation Styles:
 					
@@ -463,7 +463,7 @@
 								data-elementdelay="0.1" 
 								data-endelementdelay="0.1" 
 								data-endspeed="300">
-								<span class="weight-300 font-lato">+ Pelikan</span>
+								<span class="weight-300 font-lato">+ y Resaltadores</span>
 							</div>
 
 							<div class="tp-caption mediumlarge_light_white lft tp-resizeme" 
@@ -477,7 +477,7 @@
 								data-elementdelay="0.1" 
 								data-endelementdelay="0.1" 
 								data-endspeed="300">
-								<span class="weight-300 font-lato">+ Marcadores y Resaltadores</span>
+								<span class="weight-300 font-lato">+ Marcadores </span>
 							</div>
 
 							<div class="tp-caption block_white sfl tp-resizeme" 

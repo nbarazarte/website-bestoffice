@@ -73,7 +73,10 @@
 										</a>
 										<ul class="dropdown-menu">
 											<li><a href="#chamex">CHAMEX</a></li>
+											<li><a href="#report">SUZANO REPORT PREMIUM</a></li>
 											<li><a href="#premium">PREMIUM LASER TONER</a></li>
+											<li><a href="#hammermill">HAMMERMILL</a></li>
+											<li><a href="#reprograf">REPROGRAF</a></li>
 										</ul>
 									</li>
 
