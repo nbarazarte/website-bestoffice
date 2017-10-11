@@ -1,5 +1,5 @@
 			<!-- REVOLUTION SLIDER -->
-			<div class="slider fullwidthbanner-container roundedcorners" style="z-index: -1;">
+			<div class="slider fullwidthbanner-container roundedcorners">
 				<!--
 					Navigation Styles:
 					
