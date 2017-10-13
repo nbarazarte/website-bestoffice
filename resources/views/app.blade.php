@@ -100,13 +100,12 @@
 	-->
 		<!-- /SLIDE TOP -->
 
-
 		@yield('content')
 
+		@include('footer')
 
 		<!-- SCROLL TO TOP -->
 		<a href="#" id="toTop"></a>
-
 
 		<!-- PRELOADER -->
 		<div id="preloader">
@@ -114,8 +113,6 @@
 				<span class="loader"></span>
 			</div>
 		</div><!-- /PRELOADER -->
-
-
 
 		<!-- JAVASCRIPT FILES -->
 		<script type="text/javascript">var plugin_path = 'smarty/HTML/assets/plugins/';</script>
@@ -125,8 +122,6 @@
 
 		{!! Html::script('smarty/HTML/assets/js/scripts.js') !!}
 		
-
-
 		<!-- REVOLUTION SLIDER -->
 		{!! Html::script('smarty/HTML/assets/plugins/slider.revolution/js/jquery.themepunch.tools.min.js') !!}
 		{!! Html::script('smarty/HTML/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js') !!}

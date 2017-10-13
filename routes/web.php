@@ -17,9 +17,10 @@ Route::get('/', function () {
 });
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', [
+	'uses' => 'HomeController@index',
+	'as' =>'home'
+]);	
 
 Route::put('Enviando', [
 		'uses' => 'HomeController@enviar',
@@ -40,3 +41,13 @@ Route::get('/Trabaja-con-Nosotros', [
 	'uses' => 'HomeController@trabaja',
 	'as' =>'trabaja'
 ]);	
+
+Route::get('/Términos-del-Servicio', [
+	'uses' => 'HomeController@terminos',
+	'as' =>'terminos'
+]);	
+
+Route::get('/Políticas-de-Privacidad', [
+	'uses' => 'HomeController@politicas',
+	'as' =>'politicas'
+]);

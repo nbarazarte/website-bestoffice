@@ -2,29 +2,44 @@
 
 @section('content')
 
-			<section id="contacto" class="callout-dark heading-title heading-arrow-bottom" style="">
+@include('menuTop')
+
+
+			<!-- 
+				PAGE HEADER 
+				
+				CLASSES:
+					.page-header-xs	= 20px margins
+					.page-header-md	= 50px margins
+					.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+					.dark			= dark page header
+
+					.shadow-before-1 	= shadow 1 header top
+					.shadow-after-1 	= shadow 1 header bottom
+					.shadow-before-2 	= shadow 2 header top
+					.shadow-after-2 	= shadow 2 header bottom
+					.shadow-before-3 	= shadow 3 header top
+					.shadow-after-3 	= shadow 3 header bottom
+					.light			= light page header
+			-->
+			<section class="page-header parallax parallax-3" style="background-image:url('smarty/HTML/assets/images/demo/rubber-rings-2512269_1920.jpg')">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
 				<div class="container">
 
-					<div class="text-center">
-						<h3 class="size-30">Trabaja con Nosotros</h3>
-						<p>En <strong style="color: #F47741; font-size: 20px">Best Office,</strong> queremos contar contigo</p>
-					</div>
+					<h1>Trabaja con Nosotros</h1>
+					
+
+					<!-- breadcrumbs -->
+					<ol class="breadcrumb">
+						<li><a href="{{ route('home')}}">Inicio</a></li>
+						<li class="active">Trabaja con Nosotros</li>
+					</ol><!-- /breadcrumbs -->
 
 				</div>
 			</section>
-		
-
-			<div class="callout alert alert-default noborder noradius nomargin" style="background-color: #35459C">
-
-				<div class="text-center">
-
-					<h3 style="color: #ffffff">Queremos Conocerte</h3>
-
-				</div>
-
-			</div>
-
-
+			<!-- /PAGE HEADER -->
 
 			<section>
 				<div class="container">		
@@ -117,7 +132,7 @@
 						<!-- INFO -->
 						<div class="col-md-4 col-sm-4">
 
-							<h2><strong style="color: #F47741"><em>¡Visítanos!</em></strong></h2>
+							<h4><strong style="color: #87bb4d">Queremos conocerte, ven y visítanos.</strong></h4>
 
 							<!-- 
 							Available heights
@@ -138,9 +153,11 @@
 							<hr />
 
 							<p>
-								<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección:</strong> Urb. Terrazas del Ávila, Zona Rental Universidad Metropolitana. Edif. 1. P1. Oficina iLernus, (B&G). Caracas, Edo. Miranda.</span>
+								<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección:</strong> Calle Zona Rental, Edif. Andrés Germán Otero, Piso PB, Ofic. 1. Urb. Terrazas del Ávila. Caracas-Venezuela.</span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-212-204-24-31">+58 (212) 204.22.54 </a></span>
 								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-212-204-24-31">+58 (212) 204.24.31 </a></span>
-								<span class="block"><strong><i class="fa fa-envelope"></i> Correo Electrónico:</strong> <a href="mailto:info@ilernus.com">info@ilernus.com</a></span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-212-204-24-31">+58 (212) 204.20.29 </a></span>
+								<span class="block"><strong><i class="fa fa-envelope"></i> Correo Electrónico:</strong> <a href="mailto:reclutamiento@monitorbg.com">reclutamiento@monitorbg.com</a></span>
 							</p>
 
 						</div>

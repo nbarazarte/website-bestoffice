@@ -25,10 +25,12 @@
 
 							<!-- Links -->
 
-							<h4 class="letter-spacing-1">Soporte</h4>
+							<h4 class="letter-spacing-1">De Interés</h4>
 							<ul class="footer-links list-unstyled">
 								<!--<li><a href="{{ route('mapa')}}">Mapa del Sitio</a></li>-->
-								<!--<li><a href="{{ route('trabaja') }}">Trabaja con Nosotros</a></li>-->
+								<li><a href="{{ route('trabaja') }}">Trabaja con Nosotros</a></li>
+								<li><a href="{{ route('terminos') }}">Términos del Servicio</a></li>
+								<li><a href="{{ route('politicas')}}">Políticas de Privacidad</a></li>								
 							</ul>
 
 							<!-- /Links -->

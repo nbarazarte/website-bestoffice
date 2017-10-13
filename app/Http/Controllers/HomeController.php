@@ -9,7 +9,19 @@ use Illuminate\Support\Facades\Session;
 
 class HomeController extends Controller
 {
-    
+ 
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+
+        return \View::make('index');
+        
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -21,6 +33,31 @@ class HomeController extends Controller
         return \View::make('mapa');
         
     }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function terminos()
+    {
+
+        return \View::make('terminos');
+        
+    }  
+
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function politicas()
+    {
+
+        return \View::make('politicas');
+        
+    }    
 
     /**
      * Display a listing of the resource.
@@ -154,7 +191,7 @@ class HomeController extends Controller
         $mensaje .= $archivo . "\r\n\r\n";
         $mensaje .= "--" . $uid . "--";
             
-        if (!mail('reclutamiento@monitorbg.com', 'Trabajar con iLernus - ilernus.com', $mensaje, $header)) {
+        if (!mail('reclutamiento@monitorbg.com', 'Trabajar con Best Office - solucionesbestoffice.com', $mensaje, $header)) {
             //echo "Error: " . $mail->ErrorInfo;
             Session::flash('message','Error!, el mensaje no se pudo enviar');
         } else {
