@@ -136,7 +136,7 @@
 
 									</li>
 
-									<li><!-- PROMOCIONES -->
+									<!--<li>< ! - - PROMOCIONES - ->
 
 										@if(Route::current()->getName() == 'home')
 
@@ -168,7 +168,7 @@
 
 										@endif
 
-									</li>
+									</li>-->
 
 									<li><!-- REDES SOCIALES -->
 

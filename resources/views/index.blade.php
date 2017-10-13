@@ -242,8 +242,9 @@
 
 			@include('productos')
 
-			@include('promociones')
-
+			<!--
+				@ include('promociones')
+			-->
 			@include('redes')
 
 			@include('contactanos')
