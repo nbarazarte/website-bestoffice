@@ -51,3 +51,9 @@ Route::get('/Políticas-de-Privacidad', [
 	'uses' => 'HomeController@politicas',
 	'as' =>'politicas'
 ]);
+
+
+Route::get('/Descargar', [
+	'uses' => 'HomeController@descargar',
+	'as' =>'descargar'
+]);

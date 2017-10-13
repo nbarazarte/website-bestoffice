@@ -15,7 +15,7 @@
 					<ul class="top-links list-inline pull-right">
 						
 						<li>
-							<a class="dropdown-toggle no-text-underline" href=" {{ asset('planilla/registro-clientes-Best Office.xls') }}">
+							<a class="dropdown-toggle no-text-underline" href=" {{ route('descargar') }}">
 								<i class="fa fa-cloud-download" aria-hidden="true"></i> Planilla de Registro
 							</a>
 						</li>

@@ -204,5 +204,24 @@ class HomeController extends Controller
 
 
 
+
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function descargar()
+    {
+
+        $filePath = public_path("planilla/registro-clientes-Best Office.xls");
+        $headers = ['Content-Type: application/xls'];
+        //$fileName = time().'.xls';
+        $fileName = 'registro-clientes-Best Office.xls';
+        return response()->download($filePath, $fileName, $headers);
+        
+    }
+
+
     
 }
