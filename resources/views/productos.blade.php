@@ -87,17 +87,12 @@
 						@foreach ($productos as $prod)
 
 
-
 							<!-- item -->
 							<div class="shop-item nomargin">
 
 								<div class="thumbnail">
 									<!-- product image(s) -->
-									<a class="shop-item-image" href="#">
-										
 										<img class="img-responsive" src="data:image/jpeg;base64,{{ $prod->imagen }}" alt="" title="">
-
-									</a>
 									<!-- /product image(s) -->
 								</div>
 								
@@ -116,7 +111,7 @@
 									<div class="shop-item-buttons text-center">
 
 										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{{ $prod->nombre }}">
-											<i class="fa fa-search-plus" aria-hidden="true"></i> Ver más
+											<i class="fa fa-search-plus" aria-hidden="true"></i> Ver
 										</button>
 
 									</div>
