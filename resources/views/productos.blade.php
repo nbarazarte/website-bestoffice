@@ -19,6 +19,63 @@
 			<!-- /PARALLAX -->
 
 
+
+						@foreach ($productos as $prod)
+
+							<div id="{{ $prod->nombre }}" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-lg">
+									<div class="modal-content">
+
+										<!-- header modal -->
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+											<h4 class="modal-title" id="myLargeModalLabel">{{ $prod->marca }}</h4>
+										</div>
+
+										<!-- body modal -->
+										<div class="modal-body">
+											
+											
+											<table border="0" width="*">
+												<tr>
+													<td style="width: 40%">
+														<img class="img-responsive" src="data:image/jpeg;base64,{{ $prod->imagen }}" alt="" title="">
+													</td>
+
+													<td>
+															<table border="0" width="*">
+																<tr>
+																	<td>
+																		{!! html_entity_decode($prod->descripcion) !!}
+																	</td>
+																</tr>
+															</table>
+
+
+
+														
+													</td>
+
+												</tr>
+											</table>
+
+
+
+											
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+
+						@endforeach
+
+
+
+
+
+
 			<!-- PRODUCTOS -->
 			<section >
 				<div class="container">
@@ -27,395 +84,50 @@
 					<div class="owl-carousel featured nomargin owl-padding-10" data-plugin-options='{"singleItem": false, "items": "5", "stopOnHover":false, "autoPlay":4000, "autoHeight": false, "navigation": true, "pagination": false}'>
 
 
-						<!-- item -->
-						<div class="shop-item nomargin">
+						@foreach ($productos as $prod)
 
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/20150429_130130.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Chamex Office</h2>
+
+
+							<!-- item -->
+							<div class="shop-item nomargin">
+
+								<div class="thumbnail">
+									<!-- product image(s) -->
+									<a class="shop-item-image" href="#">
+										
+										<img class="img-responsive" src="data:image/jpeg;base64,{{ $prod->imagen }}" alt="" title="">
+
+									</a>
+									<!-- /product image(s) -->
+								</div>
 								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
+								<div class="shop-item-summary text-center">
+									<h2>{{ str_replace("-"," ",$prod->nombre) }}</h2>
+									
+									<!-- rating -->
+									<div class="shop-item-rating-line">
+										<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
+									</div>
+									<!-- /rating -->
 
+								</div>
+
+									<!-- buttons -->
+									<div class="shop-item-buttons text-center">
+
+										<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{{ $prod->nombre }}">
+											<i class="fa fa-search-plus" aria-hidden="true"></i> Ver más
+										</button>
+
+									</div>
+									<!-- /buttons -->
 							</div>
+							<!-- /item -->
 
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
+						@endforeach
 
-						<!-- item -->
-						<div class="shop-item nomargin">
 
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/20150429_130231.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Chamex Super</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
 
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/20150429_130705.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Chamex Multi</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/20150502_124532.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Chamequito</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/colors.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Chamex Colors</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/hammermill-multi-purpose.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Premium Multi-Purpose</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/reprograf2.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Papel Reprograf</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/report-premium2.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Papel Report Premium</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/pelikan2.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Pelikan Texmarket 490</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/postit.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Post It</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/cuaderno-tapa-dura.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Libretas Tapa Dura</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/cuaderno-A4-22.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Cuaderno A4 80 Hojas</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
-
-						<!-- item -->
-						<div class="shop-item nomargin">
-
-							<div class="thumbnail">
-								<!-- product image(s) -->
-								<a class="shop-item-image" href="#">
-									<img class="img-responsive" src="smarty/HTML/assets/images/demo/shop/products/300x450/toner2.png" alt="shop first image" />
-								</a>
-								<!-- /product image(s) -->
-							</div>
-							
-							<div class="shop-item-summary text-center">
-								<h2>Toner Premium</h2>
-								
-								<!-- rating -->
-								<div class="shop-item-rating-line">
-									<div class="rating rating-5 size-13"><!-- rating-0 ... rating-5 --></div>
-								</div>
-								<!-- /rating -->
-
-							</div>
-
-								<!-- buttons -->
-								<div class="shop-item-buttons text-center">
-									<a class="btn btn-default lightbox" href="smarty/HTML/ajax/dummy-lightbox.html" data-lightbox="iframe" data-plugin-options='{"type":"ajax", "closeOnBgClick":false}'><i class="fa fa-search-plus" aria-hidden="true"></i> Ver más</a>
-								</div>
-								<!-- /buttons -->
-						</div>
-						<!-- /item -->
 
 					</div>
 

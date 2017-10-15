@@ -18,7 +18,19 @@ class HomeController extends Controller
     public function index()
     {
 
-        return \View::make('index');
+        //$productos = DB::table('tbl_productos')->get();
+
+        $productos = DB::table('tbl_productos as p')
+                ->join('tbl_marcas as ma', 'ma.id', '=', 'p.lng_idmarca')
+                ->where('p.bol_eliminado', '=' ,0)
+                ->Where(function ($query) {
+                    $query->where('p.lng_idestatus', '=', 8);
+                })
+                ->select('p.str_nombre as nombre', 'p.str_descripcion as descripcion', 'p.blb_img as imagen','ma.str_nombre as marca')
+                ->orderBy('p.id','asc')
+                ->get();
+
+        return \View::make('index', compact('productos'));
         
     }
 
