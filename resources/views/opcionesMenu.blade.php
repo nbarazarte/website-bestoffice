@@ -32,7 +32,7 @@
 
 											@if(Route::current()->getName() == 'home')
 
-												<a href="#slider">
+												<a class="scrollTo" href="#top" >
 													INICIO
 												</a>
 

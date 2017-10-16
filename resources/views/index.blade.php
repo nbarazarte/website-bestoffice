@@ -62,7 +62,7 @@
 			</div>
 			<!-- /Top Bar -->
 
-			@include('menuBotton')
+			@include('menuTop')
 
 			@include('slider')
 		
