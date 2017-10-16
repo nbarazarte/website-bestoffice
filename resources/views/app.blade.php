@@ -114,6 +114,20 @@
 			</div>
 		</div><!-- /PRELOADER -->
 
+
+
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108154384-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-108154384-1');
+		</script>
+
+
 		<!-- JAVASCRIPT FILES -->
 		<script type="text/javascript">var plugin_path = 'smarty/HTML/assets/plugins/';</script>
 
