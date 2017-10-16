@@ -32,6 +32,10 @@
 		{!! Html::style('smarty/HTML/assets/css/header-1.css') !!}
 		{!! Html::style('smarty/HTML/assets/css/layout-shop.css') !!}
 		{!! Html::style('smarty/HTML/assets/css/color_scheme/green.css') !!}
+
+		<link rel="icon" href="{{ asset('smarty/HTML/assets/images/favicon.png') }}" type="image/x-icon"/>
+		<link rel="shortcut icon" href="{{ asset('smarty/HTML/assets/images/favicon.png') }}" type="image/x-icon"/>
+
 	</head>
 
 	<!--

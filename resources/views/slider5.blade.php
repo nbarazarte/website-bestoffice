@@ -1,4 +1,4 @@
-						<li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-link="#" data-title="Slide 4" data-target="_blank" data-saveperformance="off">
+						<li data-transition="fade" data-slotamount="7" data-masterspeed="300"  data-title="Slide 4" data-saveperformance="off">
 
 							<img src="smarty/HTML/assets/images/1x1.png" data-lazyload="smarty/HTML/assets/images/backgrounds/blue-1977898_1920.jpg" alt="" data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat" />
 
