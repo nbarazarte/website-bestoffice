@@ -2,19 +2,16 @@
 
 @section('content')
 
-
 		<!-- wrapper -->
 		<div id="wrapper">
 
 		<!-- SLIDER -->
 		<section id="slider" class=""></section>
 
-
 			@include('menuTop')
 
 			@include('slider')
 		
-
 <!-- 
 	INFO BAR 
 	outside .container and section
@@ -49,8 +46,6 @@
 </section>
 <!-- /INFO BAR -->
 
-
-
 			<!-- HOME -->
 			<section id="best">
 						
@@ -65,8 +60,6 @@
 						</p>
 
 					</div>
-
-
 
 <!-- 
 				controlls-over		= navigation buttons over the image 
@@ -122,13 +115,10 @@
 					
 					<hr />
 
-
 				</div>
 			</div>
 
 		</div>
-
-
 
 			<!-- -->
 			<section class="alternate">
@@ -136,44 +126,46 @@
 				
 					<div class="row">
 
-						<div class="col-md-4">
+						<div class="container text-left">
+							
+							<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-map" aria-hidden="true" style="color: #87bb4d;"></i> Misión</h1>
+							
+							
+							<div class="text-center">
+								<p class="lead">
+									Satisfacer las necesidades de abastecimiento, con nuevas y mejores alternativas, ampliando cada día nuestra gama de productos, brindando confianza y a su vez obtener desarrollo y prestigio en el mercado.</p>
+										
+								</p>
 
-							<div class="box-icon box-icon-side box-icon-color box-icon-round">
-								<i class="fa fa-map" aria-hidden="true"></i>
-								<a class="box-icon-title" href="#">
-									<h2>Misión</h2>
-								</a>
-								<p style="text-align: justify;">Satisfacer las necesidades de abastecimiento, con nuevas y mejores alternativas, ampliando cada día nuestra gama de productos, brindando confianza y a su vez obtener desarrollo y prestigio en el mercado.</p>
-								
 							</div>
-
 						</div>
 
-						<div class="col-md-4">
+						<div class="container text-right">
+							
+							<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-eye" aria-hidden="true" style="color: #87bb4d;"></i> Visión</h1>
+							
+							
+							<div class="text-center">
+								<p class="lead">
+									Ser una organización líder e innovadora en el mercado con cobertura nacional e imágen internacional en la comercialización de suministros de oficina y útiles escolares, reconocida por su excelencia en el servicio, productos de alta calidad, y responsabilidad social empresarial.
+								</p>
 
-							<div class="box-icon box-icon-side box-icon-color box-icon-round">
-								<i class="fa fa-eye" aria-hidden="true"></i>
-								<a class="box-icon-title" href="#">
-									<h2>Visión</h2>
-								</a>
-								<p style="text-align: justify;">Ser una organización líder e innovadora en el mercado con cobertura nacional e imágen internacional en la comercialización de suministros de oficina y útiles escolares, reconocida por su excelencia en el servicio, productos de alta calidad, y responsabilidad social empresarial.</p>
-								
 							</div>
+						</div>				
 
-						</div>
+						<div class="container text-left">
+							
+							<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s"><i class="fa fa-trophy" aria-hidden="true" style="color: #87bb4d;"></i> Valores</h1>
+							
+							
+							<div class="text-center">
+								<p class="lead">
+									Honestidad, Responsabilidad, Calidad, Respeto, Lealtad y Eficiencia
+								</p>
 
-						<div class="col-md-4">
-
-							<div class="box-icon box-icon-side box-icon-color box-icon-round">
-								<i class="fa fa-trophy" aria-hidden="true"></i>
-								<a class="box-icon-title" href="#">
-									<h2>Valores</h2>
-								</a>
-								<p style="text-align: justify;">Honestidad, Responsabilidad, Calidad, Respeto, Lealtad y Eficiencia.</p>
-								
 							</div>
+						</div>	
 
-						</div>
 
 					</div>
 
@@ -184,9 +176,9 @@
 			</section>
 			<!-- /HOME -->
 
-
-			
 			@include('marcas')
+
+			@include('certificaciones')
 
 			@include('productos')
 
@@ -197,8 +189,5 @@
 
 			@include('contactanos')
 			
-
 		</div>
 		<!-- /wrapper -->
-
-

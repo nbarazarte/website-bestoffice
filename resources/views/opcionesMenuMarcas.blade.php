@@ -93,39 +93,7 @@
 		@endif
 
 	</li>
-	
-	<li>
 		
-		@if(Route::current()->getName() == 'home')
-
-			<a href="#hammermill">HAMMERMILL</a>
-
-		@elseif(
-
-			(Route::current()->getName() == 'terminos') || 
-			(Route::current()->getName() == 'politicas') || 
-			(Route::current()->getName() == 'mapa') || 
-			(Route::current()->getName() == 'trabaja') 
-			
-		)
-			@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
-
-				<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#hammermill">
-					HAMMERMILL
-				</a>
-
-			@else
-
-				<a href="http://{{ $_SERVER['SERVER_NAME'] }}#hammermill">
-					HAMMERMILL
-				</a>
-
-			@endif
-
-		@endif
-
-	</li>
-	
 	<li>
 
 		@if(Route::current()->getName() == 'home')
@@ -157,6 +125,38 @@
 		@endif
 
 	</li>
+
+	<li>
+		
+		@if(Route::current()->getName() == 'home')
+
+			<a href="#hammermill">HAMMERMILL</a>
+
+		@elseif(
+
+			(Route::current()->getName() == 'terminos') || 
+			(Route::current()->getName() == 'politicas') || 
+			(Route::current()->getName() == 'mapa') || 
+			(Route::current()->getName() == 'trabaja') 
+			
+		)
+			@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
+
+				<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#hammermill">
+					HAMMERMILL
+				</a>
+
+			@else
+
+				<a href="http://{{ $_SERVER['SERVER_NAME'] }}#hammermill">
+					HAMMERMILL
+				</a>
+
+			@endif
+
+		@endif
+
+	</li>	
 	
 	<li>		
 

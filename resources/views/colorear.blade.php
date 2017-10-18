@@ -23,7 +23,11 @@
 										Aquí se viene a, ¡colorear y diviertirse!
 									</span>
 								</h1>
-								<h2 class="weight-300 text-white wow fadeInUp" data-wow-delay="0.8s">Dale color a tu imaginación</h2>
+								<h2 class="weight-300 text-white wow fadeInUp" data-wow-delay="0.8s">
+										¡Divierte descargando y coloreando! 
+									<br>
+										¡Libera tu imaginación aquí en Best Office!
+								</h2>
 
 							</div>
 				
@@ -40,12 +44,13 @@
 				<div class="container text-center">
 					
 					<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Colorea con Best Office</h1>
-					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Presencia en Venezuela y próximamente en Guatemala City</p>
+					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Siempre un poco de color es bueno.</p>
 					
 					<div class="text-center">
-						<p class="lead">
-							Presentamos a los más pequeños del hogar esta sección de llena de libertad para colorear como deseen, a esos personajes que a nosotros tambien nos acompañaron en nuestra infancia.
-							Busquen sus colores, impriman su dibujo favorito y denle rienda suelta a su creatividad, ¡queremos verte feliz!
+						<p class="lead">						
+							Presentamos a los más pequeños del hogar esta sección llena de libertad, un espacio para colorear como deseen a esos personajes que a nosotros tambien nos acompañaron en nuestra infancia.<br>
+							Los consentidos de la casa se divertirán llenado de vida sus dibujos y tú tranquilo porque cuentas con Best Office.<br>
+							Así que busquen sus colores, impriman su dibujo favorito y denle rienda suelta a su creatividad, ¡queremos verte feliz!
 						</p>
 
 					</div>
