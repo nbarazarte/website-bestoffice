@@ -57,3 +57,14 @@ Route::get('/Descargar', [
 	'uses' => 'HomeController@descargar',
 	'as' =>'descargar'
 ]);
+
+
+Route::get('/Descargar-{imagen}', [
+	'uses' => 'HomeController@descargarImagen',
+	'as' =>'descargarImagen'
+]);
+
+Route::get('/Colorear-con-BestOffice', [
+	'uses' => 'HomeController@colorear',
+	'as' =>'colorear'
+]);	

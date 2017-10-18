@@ -38,10 +38,11 @@
 
 											@elseif(
 
-												(Route::current()->getName() == 'terminos') || 
-												(Route::current()->getName() == 'politicas') || 
-												(Route::current()->getName() == 'mapa') || 
-												(Route::current()->getName() == 'trabaja') 
+											(Route::current()->getName() == 'terminos') || 
+											(Route::current()->getName() == 'politicas') || 
+											(Route::current()->getName() == 'mapa') || 
+											(Route::current()->getName() == 'trabaja') ||
+											(Route::current()->getName() == 'colorear') 
 												
 											)
 												@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -75,7 +76,8 @@
 											(Route::current()->getName() == 'terminos') || 
 											(Route::current()->getName() == 'politicas') || 
 											(Route::current()->getName() == 'mapa') || 
-											(Route::current()->getName() == 'trabaja') 
+											(Route::current()->getName() == 'trabaja') ||
+											(Route::current()->getName() == 'colorear') 
 											
 										)
 											@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -115,7 +117,8 @@
 											(Route::current()->getName() == 'terminos') || 
 											(Route::current()->getName() == 'politicas') || 
 											(Route::current()->getName() == 'mapa') || 
-											(Route::current()->getName() == 'trabaja') 
+											(Route::current()->getName() == 'trabaja') ||
+											(Route::current()->getName() == 'colorear') 
 											
 										)
 											@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -149,7 +152,8 @@
 											(Route::current()->getName() == 'terminos') || 
 											(Route::current()->getName() == 'politicas') || 
 											(Route::current()->getName() == 'mapa') || 
-											(Route::current()->getName() == 'trabaja') 
+											(Route::current()->getName() == 'trabaja') ||
+											(Route::current()->getName() == 'colorear') 
 											
 										)
 											@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -183,7 +187,8 @@
 											(Route::current()->getName() == 'terminos') || 
 											(Route::current()->getName() == 'politicas') || 
 											(Route::current()->getName() == 'mapa') || 
-											(Route::current()->getName() == 'trabaja') 
+											(Route::current()->getName() == 'trabaja') ||
+											(Route::current()->getName() == 'colorear') 
 											
 										)
 											@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -217,7 +222,8 @@
 											(Route::current()->getName() == 'terminos') || 
 											(Route::current()->getName() == 'politicas') || 
 											(Route::current()->getName() == 'mapa') || 
-											(Route::current()->getName() == 'trabaja') 
+											(Route::current()->getName() == 'trabaja') ||
+											(Route::current()->getName() == 'colorear') 
 											
 										)
 											@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -237,6 +243,15 @@
 										@endif
 
 									</li>
+
+									<li><!-- COLOREAR -->
+
+										<a href="{{ route('colorear') }}">
+											COLOREAR
+										</a>
+
+									</li>
+
 								</ul>
 
 							</nav>

@@ -92,35 +92,6 @@
 			</section>
 			<!-- /report -->
 
-			<!-- hammermill -->
-			<section id="hammermill" class="nopadding-bottom">
-				<div class="container">
-
-					<div class="row">
-
-						<div class="col-md-6 col-sm-6">
-							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/caja-y-resma-del-papel-bond.jpg" alt="" />
-						</div>
-
-						<div class="col-md-6 col-sm-6">
-							<header class="margin-bottom-40">
-								<h1 class="weight-300">Hammermill Multi-Purpose</h1>
-								<h2 class="weight-300 letter-spacing-1 size-13"><span>MUESTRA SU TRABAJO EN SU MEJOR MOMENTO</span></h2>
-							</header>
-
-							<p style="text-align: justify;">Los papeles multiuso de Hammermill ofrecen una impresionante calidad de impresión para todo tipo de documentos. Si está buscando un papel que haga muchas cosas bien, los papeles Hammermill Multi-Purpose son perfectos para cualquier cosa, desde copias simples a boletines informativos, folletos o impresión a doble cara.</p>
-
-							<p style="text-align: justify;">La marca Hammermill utiliza la tecnología <strong>ColorLok</strong> para mostrar su trabajo en su mejor momento. La tecnología ColorLok trae el pigmento a la superficie del papel para mayor claridad y colores más fuertes. Disfrute de los negros más profundos y ricos, colores vivos asombrosos, nítidos, limpios e imágenes que traen su trabajo a la vida.</p>
-
-							
-						</div>
-
-					</div>
-
-				</div>
-			</section>
-			<!-- /hammermill -->
-
 			<!-- reprograf -->
 			<section id="reprograf" class="nopadding-bottom">
 				<div class="container">
@@ -167,6 +138,35 @@
 				</div>
 			</section>
 			<!-- /reprograf -->
+
+			<!-- hammermill -->
+			<section id="hammermill" class="nopadding-bottom">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-6 col-sm-6">
+							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/caja-y-resma-del-papel-bond.jpg" alt="" />
+						</div>
+
+						<div class="col-md-6 col-sm-6">
+							<header class="margin-bottom-40">
+								<h1 class="weight-300">Hammermill Multi-Purpose</h1>
+								<h2 class="weight-300 letter-spacing-1 size-13"><span>MUESTRA SU TRABAJO EN SU MEJOR MOMENTO</span></h2>
+							</header>
+
+							<p style="text-align: justify;">Los papeles multiuso de Hammermill ofrecen una impresionante calidad de impresión para todo tipo de documentos. Si está buscando un papel que haga muchas cosas bien, los papeles Hammermill Multi-Purpose son perfectos para cualquier cosa, desde copias simples a boletines informativos, folletos o impresión a doble cara.</p>
+
+							<p style="text-align: justify;">La marca Hammermill utiliza la tecnología <strong>ColorLok</strong> para mostrar su trabajo en su mejor momento. La tecnología ColorLok trae el pigmento a la superficie del papel para mayor claridad y colores más fuertes. Disfrute de los negros más profundos y ricos, colores vivos asombrosos, nítidos, limpios e imágenes que traen su trabajo a la vida.</p>
+
+							
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /hammermill -->			
 
 			<!-- premiun -->
 			<section id="premium" class="nopadding-bottom"> <!-- style="background-image: url('smarty/HTML/assets/images/backgrounds/grey-noise-min.jpg');" -->

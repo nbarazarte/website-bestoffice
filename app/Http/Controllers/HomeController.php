@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use DB;
 use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\File;
 
 class HomeController extends Controller
 {
@@ -214,10 +216,6 @@ class HomeController extends Controller
 
     } 
 
-
-
-
-
     /**
      * Display a listing of the resource.
      *
@@ -234,6 +232,47 @@ class HomeController extends Controller
         
     }
 
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function descargarImagen($imagen)
+    {
+
+        $filePath = public_path("colorear/".$imagen);
+        $headers = ['Content-Type: image/jpg'];
+        //$fileName = time().'.xls';
+        $fileName = $imagen;
+        return response()->download($filePath, $fileName, $headers);
+        
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function colorear()
+    {
+
+        $directory = public_path('colorear');
+
+        $files = File::allfiles($directory);
+
+        
+          /*
+            foreach ($files as $file)
+            {
+                echo (string)$file, "<br>";
+            }
+
+            die();
+        */
+
+        return \View::make('colorear',compact('files'));
+        
+    } 
 
     
 }
