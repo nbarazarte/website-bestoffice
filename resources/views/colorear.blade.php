@@ -78,34 +78,85 @@
 						<div class="owl-carousel owl-padding-1 nomargin buttons-autohide controlls-over" data-plugin-options='{"singleItem": false, "items": "1", "autoPlay": 8500, "navigation": true, "pagination": false}'>
 
 							@foreach ($files as $file)
-					
-								<!-- item -->
-								<div class="item-box">
-									<figure>
-										<span class="item-hover">
-											<span class="overlay dark-5"></span>
-											<span class="inner">
 
-												<!-- details -->
-												<a class="ico-rounded" href="{{ route('descargarImagen',substr($file,63)) }}">
-													
-													<span class="glyphicon glyphicon-cloud-download size-20"></span>
-												</a>
+								@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
 
+
+									<!-- item -->
+									<div class="item-box">
+										<figure>
+											<span class="item-hover">
+												<span class="overlay dark-5"></span>
+												<span class="inner">
+
+													<!-- details -->
+													<a class="ico-rounded" href="{{ route('descargarImagen',substr($file,63)) }}">
+														
+														<span class="glyphicon glyphicon-cloud-download size-20"></span>
+													</a>
+
+												</span>
 											</span>
-										</span>
+
+												<img class="img-responsive " src="{{ substr($file,54) }}" alt="">
+											
+										</figure>
+									</div>
+									<!-- /item -->
 
 
-										
-											<img class="img-responsive " src="{{ substr($file,54) }}" alt="">
-										
+								@else
+
+
+									<!-- item -->
+									<div class="item-box">
+										<figure>
+											<span class="item-hover">
+												<span class="overlay dark-5"></span>
+												<span class="inner">
+
+													<!-- details -->
+													<a class="ico-rounded" href="{{ route('descargarImagen',substr($file,57)) }}">
+														
+														<span class="glyphicon glyphicon-cloud-download size-20"></span>
+													</a>
+
+												</span>
+											</span>
+
+												<img class="img-responsive " src="{{ substr($file,48) }}" alt="">
+											
+										</figure>
+									</div>
+									<!-- /item -->
+
+								@endif
 
 
 
 
-									</figure>
-								</div>
-								<!-- /item -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 							@endforeach
 
