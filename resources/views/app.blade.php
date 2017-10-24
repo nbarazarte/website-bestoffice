@@ -21,17 +21,17 @@
 		{!! Html::style('smarty/HTML/assets/plugins/bootstrap/css/bootstrap.min.css') !!}
 
 		<!-- REVOLUTION SLIDER -->
-		{!! Html::style('smarty/HTML/assets/plugins/slider.revolution/css/extralayers.css') !!}
-		{!! Html::style('smarty/HTML/assets/plugins/slider.revolution/css/settings.css') !!}
+		{!! Html::style('smarty/HTML/assets/plugins/slider.revolution/css/extralayers.min.css') !!}
+		{!! Html::style('smarty/HTML/assets/plugins/slider.revolution/css/settings.min.css') !!}
 
 		<!-- THEME CSS -->
-		{!! Html::style('smarty/HTML/assets/css/essentials.css') !!}
-		{!! Html::style('smarty/HTML/assets/css/layout.css') !!}
+		{!! Html::style('smarty/HTML/assets/css/essentials.min.css') !!}
+		{!! Html::style('smarty/HTML/assets/css/layout.min.css') !!}
 
 		<!-- PAGE LEVEL SCRIPTS -->
-		{!! Html::style('smarty/HTML/assets/css/header-1.css') !!}
-		{!! Html::style('smarty/HTML/assets/css/layout-shop.css') !!}
-		{!! Html::style('smarty/HTML/assets/css/color_scheme/green.css') !!}
+		{!! Html::style('smarty/HTML/assets/css/header-1.min.css') !!}
+		{!! Html::style('smarty/HTML/assets/css/layout-shop.min.css') !!}
+		{!! Html::style('smarty/HTML/assets/css/color_scheme/green.min.css') !!}
 
 		<link rel="icon" href="{{ asset('smarty/HTML/assets/images/favicon.png') }}" type="image/x-icon"/>
 		<link rel="shortcut icon" href="{{ asset('smarty/HTML/assets/images/favicon.png') }}" type="image/x-icon"/>
@@ -147,7 +147,7 @@
 
 
 		<!-- PAGE LEVEL SCRIPTS -->
-		{!! Html::script('smarty/HTML/assets/js/view/demo.shop.js') !!}
+		{!! Html::script('smarty/HTML/assets/js/view/demo.shop.min.js') !!}
 
 		@if ((Route::current()->getName() == 'home') || (Route::current()->getName() == 'trabaja'))
 			<!-- 
