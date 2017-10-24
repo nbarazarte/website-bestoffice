@@ -1,5 +1,5 @@
 			<!-- PARALLAX -->
-			<section id="productos" class="parallax " style="background-image: url('smarty/HTML/assets/images/demo/paper-184920_1920.jpg');">
+			<section id="productos" class="parallax " style="background-image: url('smarty/HTML/assets/images/demo/paper-184920_1920_comprimida.jpg');">
 				<div class="overlay dark-1"><!-- dark overlay [0 to 9 opacity] --></div>
 
 				<div class="container">

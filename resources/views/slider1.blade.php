@@ -1,6 +1,6 @@
 <li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off"  data-title="Slide">
 
-							<img src="smarty/HTML/assets/images/1x1.png" data-lazyload="smarty/HTML/assets/images/demo/desk-593317_1920.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+							<img src="smarty/HTML/assets/images/1x1.png" data-lazyload="smarty/HTML/assets/images/demo/desk-593317_1920_comprimida.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
 
 							<div class="tp-dottedoverlay twoxtwo"><!-- dotted overlay --></div>
 							<div class="overlay dark-3"><!-- dark overlay [1 to 9 opacity] --></div>

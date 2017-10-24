@@ -1,6 +1,6 @@
 						<li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off" data-title="Slide 5">
 
-							<img src="smarty/HTML/assets/images/1x1.png" data-lazyload="smarty/HTML/assets/images/demo/shutterstock_398548423.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" />
+							<img src="smarty/HTML/assets/images/1x1.png" data-lazyload="smarty/HTML/assets/images/demo/shutterstock_398548423_comprimida.jpg" alt="" data-bgposition="center center" data-kenburns="on" data-duration="10000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="110" />
 
 									<div class="tp-caption lft start" 
 										data-x="right" 

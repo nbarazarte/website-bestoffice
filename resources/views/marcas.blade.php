@@ -1,5 +1,5 @@
 		<!-- PARALLAX -->
-			<section id="marcas" class="parallax " style="background-image: url('smarty/HTML/assets/images/demo/paper-571937_1920.jpg');">
+			<section id="marcas" class="parallax " style="background-image: url('smarty/HTML/assets/images/demo/paper-571937_1920_comprimida.jpg');">
 
 				<div class="overlay dark-1"><!-- dark overlay [0 to 9 opacity] --></div>
 
@@ -34,7 +34,7 @@
 						</p>
 
 						<div class="margin-top-40">
-							<img class="img-responsive" src="smarty/HTML/assets/images/demo/index/papelchamex.png" alt="welcome" />
+							<img class="img-responsive" src="smarty/HTML/assets/images/demo/index/papelchamex_comprimida.png" alt="welcome" />
 						</div>
 
 					</div>
@@ -49,7 +49,7 @@
 					<div class="row">
 
 						<div class="col-md-6 col-sm-6">
-							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/papel-report2.png" alt="" />
+							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/papel-report2_comprimida.png" alt="" />
 						</div>
 
 						<div class="col-md-6 col-sm-6">
@@ -130,7 +130,7 @@
 
 
 						<div class="col-md-6 col-sm-6">
-							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/147090_pap_1.jpg" alt="" />
+							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/147090_pap_1_comprimida.jpg" alt="" />
 						</div>
 
 					</div>
@@ -146,7 +146,7 @@
 					<div class="row">
 
 						<div class="col-md-6 col-sm-6">
-							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/caja-y-resma-del-papel-bond.jpg" alt="" />
+							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/caja-y-resma-del-papel-bond_comprimida.jpg" alt="" />
 						</div>
 
 						<div class="col-md-6 col-sm-6">
@@ -231,7 +231,7 @@
 
 						<div class="col-sm-6">
 
-							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/toner-premium2.jpg" alt="" />
+							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/toner-premium2_comprimida.jpg" alt="" />
 
 							<!-- 
 								controlls-over		= navigation buttons over the image 

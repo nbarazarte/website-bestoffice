@@ -15,7 +15,7 @@
 
 							<div class="box-image text-center">
 
-								<img class="img-responsive" src="smarty/HTML/assets/images/demo/certificaciones/1.png" alt="" />
+								<img class="img-responsive" src="smarty/HTML/assets/images/demo/certificaciones/1_comprimida.png" alt="" />
 
 								<a class="box-image-title" href="#">
 									
@@ -29,7 +29,7 @@
 
 							<div class="box-image text-center">
 
-								<img class="img-responsive" src="smarty/HTML/assets/images/demo/certificaciones/2.png" alt="" />
+								<img class="img-responsive" src="smarty/HTML/assets/images/demo/certificaciones/2_comprimida.png" alt="" />
 
 								<a class="box-image-title" href="#">
 									
@@ -43,7 +43,7 @@
 
 							<div class="box-image text-center">
 
-								<img class="img-responsive" src="smarty/HTML/assets/images/demo/certificaciones/3.png" alt="" />
+								<img class="img-responsive" src="smarty/HTML/assets/images/demo/certificaciones/3_comprimida.png" alt="" />
 
 								<a class="box-image-title" href="#">
 									
@@ -57,7 +57,7 @@
 
 							<div class="box-image text-center">
 
-								<img class="img-responsive" src="smarty/HTML/assets/images/demo/certificaciones/4.png" alt="" />
+								<img class="img-responsive" src="smarty/HTML/assets/images/demo/certificaciones/4_comprimida.png" alt="" />
 
 								<a class="box-image-title" href="#">
 									
@@ -71,7 +71,7 @@
 
 							<div class="box-image text-center">
 
-								<img class="img-responsive" src="smarty/HTML/assets/images/demo/certificaciones/5.png" alt="" />
+								<img class="img-responsive" src="smarty/HTML/assets/images/demo/certificaciones/5_comprimida.png" alt="" />
 
 								<a class="box-image-title" href="#">
 									

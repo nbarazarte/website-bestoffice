@@ -103,7 +103,7 @@
 			<div class="row margin-top-100 text-left">
 
 				<div class="col-sm-8">
-					<img class="img-responsive" src="smarty/HTML/assets/images/demo/background-2091.jpg" alt="product image" />
+					<img class="img-responsive" src="smarty/HTML/assets/images/demo/background-2091_comprimida.jpg" alt="product image" />
 				</div>
 
 				<div class="col-sm-4">

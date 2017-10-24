@@ -1,6 +1,6 @@
 						<li data-transition="random" data-slotamount="1" data-masterspeed="1000" data-saveperformance="off"  data-title="Slide">
 
-							<img src="smarty/HTML/assets/images/1x1.png" data-lazyload="smarty/HTML/assets/images/backgrounds/colorful-2557697_1920.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
+							<img src="smarty/HTML/assets/images/1x1.png" data-lazyload="smarty/HTML/assets/images/backgrounds/colorful-2557697_1920_comprimida.jpg" alt="" data-bgfit="cover" data-bgposition="center bottom" data-bgrepeat="no-repeat" />
 
 							<div class="tp-caption mediumlarge_light_white lfb tp-resizeme" 
 								data-x="left" data-hoffset="70"

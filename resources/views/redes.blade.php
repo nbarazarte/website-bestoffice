@@ -1,5 +1,5 @@
 			<!-- REDES -->
-			<section id="redes" class="parallax parallax-2" style="background-image: url('smarty/HTML/assets/images/demo/1200x800/paperclip-168336_1920.jpg');">
+			<section id="redes" class="parallax parallax-2" style="background-image: url('smarty/HTML/assets/images/demo/1200x800/paperclip-168336_1920_comprimida.jpg');">
 				<div class="overlay dark-8"><!-- dark overlay [1 to 9 opacity] --></div>
 
 				<div class="container">

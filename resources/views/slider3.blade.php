@@ -1,6 +1,6 @@
 						<li data-transition="fade" data-slotamount="1" data-masterspeed="1500" data-delay="10000" data-saveperformance="off" data-title="Slide 1" style="background-color: #F6F6F6;">
 
-							<img src="smarty/HTML/assets/images/backgrounds/heart-762564_1920.jpg" alt="video" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat">
+							<img src="smarty/HTML/assets/images/backgrounds/heart-762564_1920_comprimida.jpg" alt="video" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat">
 
 							<div class="tp-caption customin ltl tp-resizeme revo-slider-caps-text uppercase"
 								data-x="left" data-hoffset="0"
