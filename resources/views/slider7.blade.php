@@ -15,7 +15,7 @@
 								data-endelementdelay="0.1"
 								data-endspeed="1000"
 								data-endeasing="Power4.easeIn">
-								<img src="smarty/HTML/assets/images/demo/toner2.png" alt="">
+								<img src="smarty/HTML/assets/images/demo/toner2_comprimida.png" alt="">
 							</div>
 
 							<div class="tp-caption large_bold_grey skewfromrightshort customout font-open-sans"

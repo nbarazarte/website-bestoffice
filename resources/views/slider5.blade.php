@@ -12,7 +12,7 @@
 								data-endelementdelay="0.1" 
 								data-endspeed="300" 
 								style="z-index: 2;">
-								<img src="smarty/HTML/assets/images/1x1.png" alt="" data-lazyload="smarty/HTML/assets/images/demo/papelHammermill.png">
+								<img src="smarty/HTML/assets/images/1x1.png" alt="" data-lazyload="smarty/HTML/assets/images/demo/papelHammermill_comprimida.png">
 							</div>
 
 							<div class="tp-caption mediumlarge_light_white lfb tp-resizeme" 

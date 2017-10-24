@@ -12,7 +12,7 @@
 								data-endelementdelay="0.1" 
 								data-endspeed="300" 
 								style="z-index: 2;">
-								<img src="smarty/HTML/assets/images/1x1.png" alt="" data-lazyload="smarty/HTML/assets/images/demo/packshot-suzanoreport.png">
+								<img src="smarty/HTML/assets/images/1x1.png" alt="" data-lazyload="smarty/HTML/assets/images/demo/packshot-suzanoreport_comprimida.png">
 							</div>
 
 							<div class="tp-caption block_white sfl tp-resizeme" 
