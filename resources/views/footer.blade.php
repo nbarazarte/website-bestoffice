@@ -10,7 +10,7 @@
 								<li>
 
 									<a href="http://www.solucionesbestoffice.com" target="">
-										<img class="img-responsive" src="{{ asset('smarty/HTML/assets/images/best_office_logo.png') }}" alt="logo best office" title="www.solucionesbestoffice.com" style="width: 100%" />	
+										<img class="img-responsive" src="{{ asset('smarty/HTML/assets/images/best_office_logo_comprimida.png') }}" alt="logo best office" title="www.solucionesbestoffice.com" style="width: 100%" />	
 									</a>
 
 								</li>
