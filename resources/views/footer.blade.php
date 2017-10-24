@@ -30,7 +30,7 @@
 								<!--<li><a href="{{ route('mapa')}}">Mapa del Sitio</a></li>-->
 								<li><a href="{{ route('trabaja') }}">Trabaja con Nosotros</a></li>
 								<li><a href="{{ route('terminos') }}">Términos del Servicio</a></li>
-								<li><a href="{{ route('politicas')}}">Políticas de Privacidad</a></li>								
+								<!--<li><a href="{{ route('politicas')}}">Políticas de Privacidad</a></li>-->								
 							</ul>
 
 							<!-- /Links -->

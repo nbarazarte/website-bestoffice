@@ -113,10 +113,10 @@ class HomeController extends Controller
         $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
         $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
         $cabeceras .= "Content-Type: image/png";    
-        $cabeceras .= 'To: ilernus <ventas@solucionesbestoffice.com>' . "\r\n";
+        $cabeceras .= 'To: Best Office <ventas@solucionesbestoffice.com>' . "\r\n";
         $cabeceras .= 'From: '.$_POST['name'].' <'.$_POST['email'].'>' . "\r\n";     
         
-        if (!mail('ventas@ilernus.com', $_POST['asunto'].' - ilernus.com', $message, $cabeceras)) {
+        if (!mail('ventas@solucionesbestoffice.com', $_POST['asunto'].' - solucionesbestoffice.com', $message, $cabeceras)) {
             //echo "Error: " . $mail->ErrorInfo;
             Session::flash('message','Error!, el mensaje no se pudo enviar');
         } else {
