@@ -133,7 +133,7 @@
 							
 							<div class="text-center">
 								<p class="lead">
-									Satisfacer las necesidades de abastecimiento, con nuevas y mejores alternativas, ampliando cada día nuestra gama de productos, brindando confianza y a su vez obtener desarrollo y prestigio en el mercado.</p>
+									Satisfacer las necesidades de abastecimiento, con nuevas y mejores alternativas, ampliando cada día nuestra gama de productos, brindando confianza y a su vez obtener desarrollo y prestigio en el mercado.
 										
 								</p>
 
