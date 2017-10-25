@@ -21,7 +21,7 @@
 		{!! Html::style('smarty/HTML/assets/plugins/bootstrap/css/bootstrap.min.css') !!}
 
 		<!-- REVOLUTION SLIDER -->
-		
+		{!! Html::style('smarty/HTML/assets/plugins/slider.revolution/css/extralayers.min.css') !!}
 		{!! Html::style('smarty/HTML/assets/plugins/slider.revolution/css/settings.min.css') !!}
 
 		<!-- THEME CSS -->
@@ -29,7 +29,7 @@
 		{!! Html::style('smarty/HTML/assets/css/layout.min.css') !!}
 
 		<!-- PAGE LEVEL SCRIPTS -->
-		
+		{!! Html::style('smarty/HTML/assets/css/header-1.min.css') !!}
 		{!! Html::style('smarty/HTML/assets/css/layout-shop.min.css') !!}
 		{!! Html::style('smarty/HTML/assets/css/color_scheme/green.min.css') !!}
 
@@ -122,7 +122,7 @@
 
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
-		
+		<!--
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108154384-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
@@ -131,6 +131,9 @@
 
 		  gtag('config', 'UA-108154384-1');
 		</script>
+		-->
+		<script src="https://cdn.jsdelivr.net/ga-lite/latest/ga-lite.min.js" async></script> 
+		<script> var galite = galite || {}; galite.UA = 'UA-108154384-1'; // Insert your tracking code here </script>	
 		
 
 
@@ -147,6 +150,9 @@
 		{!! Html::script('smarty/HTML/assets/plugins/slider.revolution/js/jquery.themepunch.revolution.min.js') !!}
 		{!! Html::script('smarty/HTML/assets/js/view/demo.revolution_slider.js') !!}
 
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		{!! Html::script('smarty/HTML/assets/js/view/demo.shop.min.js') !!}
 
 		@if ((Route::current()->getName() == 'home') || (Route::current()->getName() == 'trabaja'))
 			<!-- 
