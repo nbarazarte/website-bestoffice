@@ -187,7 +187,7 @@
 			-->
 			@include('redes')
 
-			
+			@include('contactanos')
 			
 		</div>
 		<!-- /wrapper -->
