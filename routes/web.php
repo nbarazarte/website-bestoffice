@@ -68,3 +68,8 @@ Route::get('/Colorear-con-BestOffice', [
 	'uses' => 'HomeController@colorear',
 	'as' =>'colorear'
 ]);	
+
+Route::get('/Contáctanos', [
+	'uses' => 'HomeController@contacto',
+	'as' =>'contacto'
+]);	

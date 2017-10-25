@@ -154,7 +154,7 @@
 		<!-- PAGE LEVEL SCRIPTS -->
 		{!! Html::script('smarty/HTML/assets/js/view/demo.shop.min.js') !!}
 
-		@if ((Route::current()->getName() == 'home') || (Route::current()->getName() == 'trabaja'))
+		@if ((Route::current()->getName() == 'contacto') || (Route::current()->getName() == 'trabaja'))
 			<!-- 
 				GMAP.JS 
 				http://hpneo.github.io/gmaps/

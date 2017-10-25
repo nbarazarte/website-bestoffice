@@ -1,17 +1,44 @@
+@extends('app')
 
+@section('content')
 
-			<!-- CALLOUT -->
-			<section id="contacto" class="paralax callout-dark heading-title heading-arrow-bottom">
+@include('menuTop')
+
+			<!-- 
+				PAGE HEADER 
+				
+				CLASSES:
+					.page-header-xs	= 20px margins
+					.page-header-md	= 50px margins
+					.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+					.dark			= dark page header
+
+					.shadow-before-1 	= shadow 1 header top
+					.shadow-after-1 	= shadow 1 header bottom
+					.shadow-before-2 	= shadow 2 header top
+					.shadow-after-2 	= shadow 2 header bottom
+					.shadow-before-3 	= shadow 3 header top
+					.shadow-after-3 	= shadow 3 header bottom
+					.light			= light page header
+			-->
+			<section class="page-header parallax parallax-3" style="background-image:url('smarty/HTML/assets/images/demo/back-to-school-1559010_1920.jpg')">
+				<div class="overlay dark-5"><!-- dark overlay [1 to 9 opacity] --></div>
+
 				<div class="container">
 
-					<header class="text-center">
-						<h1 class="weight-300 size-40">Contáctanos</h1>
-						<h2 class="weight-300 letter-spacing-1 size-13" ><span style="color: #ffffff">ESTAMOS PARA ATENDERTE</span></h2>
-					</header>
+					<h1>Contáctanos</h1>
+					
+
+					<!-- breadcrumbs -->
+					<ol class="breadcrumb">
+						<li><a href="{{ route('home')}}">Inicio</a></li>
+						<li class="active">Contáctanos</li>
+					</ol><!-- /breadcrumbs -->
 
 				</div>
 			</section>
-			<!-- /CALLOUT -->
+			<!-- /PAGE HEADER -->
 	
 			<section>
 				<div class="container">		
@@ -182,3 +209,4 @@ function showfield2(name){
 }
 </script>
 
+@endsection		

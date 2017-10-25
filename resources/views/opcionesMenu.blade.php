@@ -42,7 +42,8 @@
 											(Route::current()->getName() == 'politicas') || 
 											(Route::current()->getName() == 'mapa') || 
 											(Route::current()->getName() == 'trabaja') ||
-											(Route::current()->getName() == 'colorear') 
+											(Route::current()->getName() == 'colorear') ||
+											(Route::current()->getName() == 'contacto') 
 												
 											)
 												@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -77,7 +78,8 @@
 											(Route::current()->getName() == 'politicas') || 
 											(Route::current()->getName() == 'mapa') || 
 											(Route::current()->getName() == 'trabaja') ||
-											(Route::current()->getName() == 'colorear') 
+											(Route::current()->getName() == 'colorear') ||
+											(Route::current()->getName() == 'contacto') 
 											
 										)
 											@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -118,7 +120,8 @@
 											(Route::current()->getName() == 'politicas') || 
 											(Route::current()->getName() == 'mapa') || 
 											(Route::current()->getName() == 'trabaja') ||
-											(Route::current()->getName() == 'colorear') 
+											(Route::current()->getName() == 'colorear') ||
+											(Route::current()->getName() == 'contacto') 
 											
 										)
 											@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -153,7 +156,8 @@
 											(Route::current()->getName() == 'politicas') || 
 											(Route::current()->getName() == 'mapa') || 
 											(Route::current()->getName() == 'trabaja') ||
-											(Route::current()->getName() == 'colorear') 
+											(Route::current()->getName() == 'colorear') ||
+											(Route::current()->getName() == 'contacto') 
 											
 										)
 											@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -188,7 +192,8 @@
 											(Route::current()->getName() == 'politicas') || 
 											(Route::current()->getName() == 'mapa') || 
 											(Route::current()->getName() == 'trabaja') ||
-											(Route::current()->getName() == 'colorear') 
+											(Route::current()->getName() == 'colorear') ||
+											(Route::current()->getName() == 'contacto') 
 											
 										)
 											@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
@@ -211,36 +216,9 @@
 
 									<li><!-- CONTACTO -->
 
-										@if(Route::current()->getName() == 'home')
-
-											<a href="#contacto">
-												CONTÁCTANOS
-											</a>
-
-										@elseif(
-
-											(Route::current()->getName() == 'terminos') || 
-											(Route::current()->getName() == 'politicas') || 
-											(Route::current()->getName() == 'mapa') || 
-											(Route::current()->getName() == 'trabaja') ||
-											(Route::current()->getName() == 'colorear') 
-											
-										)
-											@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
-
-												<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#contacto">
-													CONTÁCTANOS
-												</a>
-
-											@else
-
-												<a href="http://{{ $_SERVER['SERVER_NAME'] }}#contacto">
-													CONTÁCTANOS
-												</a>
-
-											@endif
-
-										@endif
+										<a href="{{ route('contacto') }}">
+											CONTÁCTANOS
+										</a>
 
 									</li>
 
