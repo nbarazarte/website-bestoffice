@@ -30,7 +30,7 @@
 
 		<!-- PAGE LEVEL SCRIPTS -->
 		
-		{!! Html::style('smarty/HTML/assets/css/layout-shop.min.css') !!}
+		
 		{!! Html::style('smarty/HTML/assets/css/color_scheme/green.min.css') !!}
 
 		<link rel="icon" href="{{ asset('smarty/HTML/assets/images/favicon.png') }}" type="image/x-icon"/>
@@ -123,13 +123,13 @@
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108154384-1"></script>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109061590-1"></script>
 		<script>
 		  window.dataLayer = window.dataLayer || [];
 		  function gtag(){dataLayer.push(arguments);}
 		  gtag('js', new Date());
 
-		  gtag('config', 'UA-108154384-1');
+		  gtag('config', 'UA-109061590-1');
 		</script>
 		
 
@@ -181,6 +181,6 @@
 			</script>
 
 		@endif
-
+{!! Html::style('smarty/HTML/assets/css/layout-shop.min.css') !!}
 	</body>
 </html>
