@@ -9,6 +9,47 @@
 <url>
   <loc>http://www.solucionesbestoffice.com/</loc>
 </url>
+
+<url>
+  <loc>http://www.solucionesbestoffice.com/#best</loc>
+</url>
+
+<url>
+  <loc>http://www.solucionesbestoffice.com/#marcas</loc>
+</url>
+
+<url>
+  <loc>http://www.solucionesbestoffice.com/#chamex</loc>
+</url>
+
+<url>
+  <loc>http://www.solucionesbestoffice.com/#report</loc>
+</url>
+
+<url>
+  <loc>http://www.solucionesbestoffice.com/#reprograf</loc>
+</url>
+
+<url>
+  <loc>http://www.solucionesbestoffice.com/#hammermill</loc>
+</url>
+
+<url>
+  <loc>http://www.solucionesbestoffice.com/#premium</loc>
+</url>
+
+<url>
+  <loc>http://www.solucionesbestoffice.com/#productos</loc>
+</url>
+
+<url>
+  <loc>http://www.solucionesbestoffice.com/#redes</loc>
+</url>
+
+<url>
+  <loc>http://www.solucionesbestoffice.com/#contacto</loc>
+</url>
+
 <url>
   <loc>http://www.solucionesbestoffice.com/Colorear-con-BestOffice</loc>
 </url>
@@ -19,6 +60,6 @@
   <loc>http://www.solucionesbestoffice.com/Trabaja-con-Nosotros</loc>
 </url>
 <url>
-  <loc>http://www.solucionesbestoffice.com/T%C3%A9rminos-del-Servicio</loc>
+  <loc>http://www.solucionesbestoffice.com/Términos-del-Servicio</loc>
 </url>
 </urlset>
