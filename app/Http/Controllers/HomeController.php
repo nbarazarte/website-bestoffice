@@ -56,8 +56,8 @@ class HomeController extends Controller
     public function site()
     {
 
-        return \View::make('sitemap');
-        
+          return response()->view('sitemap')->header('Content-Type', 'text/xml');
+
     }
 
     /**
