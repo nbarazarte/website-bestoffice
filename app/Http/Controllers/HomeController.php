@@ -53,6 +53,18 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function site()
+    {
+
+        return \View::make('sitemap');
+        
+    }
+
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
     public function terminos()
     {
 

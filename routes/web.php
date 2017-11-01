@@ -73,3 +73,10 @@ Route::get('/Contáctanos', [
 	'uses' => 'HomeController@contacto',
 	'as' =>'contacto'
 ]);	
+
+
+
+Route::get('/site', [
+	'uses' => 'HomeController@site',
+	'as' =>'site'
+]);
