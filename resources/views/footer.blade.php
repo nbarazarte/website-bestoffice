@@ -63,6 +63,7 @@
 
 						<div class="col-md-3">
 
+							<!--
 							<ul class="list-unstyled">
 								<li>
 
@@ -75,6 +76,7 @@
 								<li>B&G Technologies<br>S.A. J-405498633</li>
 								
 							</ul>
+							-->
 
 						</div>
 

@@ -52,7 +52,12 @@
 				<div class="container text-center">
 					
 					<h1 class="nomargin size-50 weight-300 wow fadeInUp" data-wow-delay="0.4s">Best Office</h1>
-					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Presencia en Venezuela y próximamente en Guatemala City</p>
+					
+					<!--
+						<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Presencia en Venezuela y próximamente en Guatemala City</p>
+					-->
+
+					<p class="lead font-lato size-30 wow fadeInUp" data-wow-delay="0.7s">Soluciones a la medida de tu empresa</p>
 					
 					<div class="text-center">
 						<p class="lead">
