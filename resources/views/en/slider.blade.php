@@ -33,45 +33,45 @@
 
 					<!-- SLIDE 1 -->
 
-						@include('slider1')
+						@include('en.slider1')
 
 					<!-- SLIDE  -->
 
-					<!-- SLIDE 2 
+					<!-- SLIDE 2 -->
 
-						include('slider2')
+						@include('en.slider2')
 
-					 SLIDE -->		
+					<!-- SLIDE -->		
 
 					<!-- SLIDE 3 -->
 
-						@include('slider3')
+						@include('en.slider3')
 						
 					<!-- SLIDE  -->
 
-					<!-- SLIDE 4 
+					<!-- SLIDE 4 -->
 
-						include('slider4')
+						@include('en.slider4')
 
-					 SLIDE -->					
+					<!-- SLIDE -->					
 					
 					<!-- SLIDE 5 -->
 
-						@include('slider5')
+						@include('en.slider5')
 
 					<!-- SLIDE  -->
 	
 					<!-- SLIDE 6 -->
 
-						@include('slider6')
+						@include('en.slider6')
 					
 					<!-- SLIDE  -->		
 
-					<!-- SLIDE 7 
+					<!-- SLIDE 7 -->
 
-						include('slider7')
+						@include('en.slider7')
 
-					 SLIDE -->				
+					<!-- SLIDE -->				
 						
 					</ul>
 

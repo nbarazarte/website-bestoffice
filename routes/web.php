@@ -17,6 +17,20 @@ Route::get('/', function () {
 });
 */
 
+
+Route::group(['prefix' => '/en/'], function () {
+	
+	include('rutasIngles.php');
+
+});
+
+	Route::get('/Paint-with-Best-Office', [
+		'uses' => 'HomeControllerIngles@colorear',
+		'as' =>'colorearIngles'
+	]);	
+
+
+
 Route::get('/', [
 	'uses' => 'HomeController@index',
 	'as' =>'home'
@@ -52,12 +66,10 @@ Route::get('/Políticas-de-Privacidad', [
 	'as' =>'politicas'
 ]);
 
-
 Route::get('/Descargar', [
 	'uses' => 'HomeController@descargar',
 	'as' =>'descargar'
 ]);
-
 
 Route::get('/Descargar-{imagen}', [
 	'uses' => 'HomeController@descargarImagen',
@@ -73,8 +85,6 @@ Route::get('/Contáctanos', [
 	'uses' => 'HomeController@contacto',
 	'as' =>'contacto'
 ]);	
-
-
 
 Route::get('/site', [
 	'uses' => 'HomeController@site',

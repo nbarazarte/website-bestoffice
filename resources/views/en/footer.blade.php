@@ -10,12 +10,12 @@
 								<li>
 
 									<a href="http://www.solucionesbestoffice.com" target="">
-										<img class="img-responsive" src="{{ asset('smarty/HTML/assets/images/logoBOBlanco.png') }}" alt="logo BO" title="www.solucionesbestoffice.com" style="width: 100%" />	
+										<img class="img-responsive" src="{{ asset('smarty/HTML/assets/images/best_office_logo_comprimida.png') }}" alt="logo best office" title="www.solucionesbestoffice.com" style="width: 100%" />	
 									</a>
 
 								</li>
 
-								<li>El nombre y logo de BO son marcas registradas. J-409988708</li>
+								<li>El nombre y logo de best office son marcas registradas. J-409988708</li>
 								
 							</ul>
 
@@ -27,9 +27,9 @@
 
 							<h4 class="letter-spacing-1">De Interés</h4>
 							<ul class="footer-links list-unstyled">
-								<li><a href="{{ route('mapa')}}">Mapa del Sitio</a></li>
-								<li><a href="{{ route('trabaja') }}">Trabaja con Nosotros</a></li>
-								<li><a href="{{ route('terminos') }}">Términos del Servicio</a></li>
+								<li><a href="{{ route('mapaIngles')}}">Mapa del Sitio</a></li>
+								<li><a href="{{ route('trabajaIngles') }}">Trabaja con Nosotros</a></li>
+								<li><a href="{{ route('terminosIngles') }}">Términos del Servicio</a></li>
 								<!--<li><a href="{{ route('politicas')}}">Políticas de Privacidad</a></li>-->								
 							</ul>
 
@@ -77,18 +77,6 @@
 								
 							</ul>
 							-->
-							<ul class="list-unstyled">
-								<li>
-
-									<a href="http://www.solucionesbestoffice.com" target="">
-										<img class="img-responsive" src="{{ asset('smarty/HTML/assets/images/best_office_logo_comprimida.png') }}" alt="logo BO" title="www.solucionesbestoffice.com" style="width: 100%" />	
-									</a>
-
-								</li>
-
-								<li>El nombre y logo de best office son marcas registradas. J-409988708</li>
-								
-							</ul>							
 
 						</div>
 
@@ -122,7 +110,7 @@
 							</li>
 
 						</ul>
-						&copy; 2018 BO. Todos los derechos reservados.
+						&copy; 2017 Best Office. Todos los derechos reservados.
 					</div>
 				</div>
 			</footer>			

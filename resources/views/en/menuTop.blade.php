@@ -6,7 +6,7 @@
 						
 						<li>
 							<a class="dropdown-toggle no-text-underline" href=" {{ route('descargar') }}">
-								<i class="fa fa-cloud-download" aria-hidden="true"></i> Planilla de Registro
+								<i class="fa fa-cloud-download" aria-hidden="true"></i> Registration Form
 							</a>
 						</li>
 					</ul>
@@ -31,20 +31,23 @@
 
 					<!-- left -->
 					<ul class="top-links list-inline">
-						<li class="hidden-xs"><a href="#">IDIOMA</a></li>
+						<li class="hidden-xs"><a href="#">LANGUAJE</a></li>
 						<li>
 
 
-							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="smarty/HTML/assets/images/flags/es.png" width="16" height="11" alt="lang" /> ESPAÑOL</a>
+							<a class="dropdown-toggle no-text-underline" data-toggle="dropdown" href="#"><img class="flag-lang" src="../smarty/HTML/assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a>
+
+							
+							<ul class="dropdown-langs dropdown-menu">
 
 							<!--
-							<ul class="dropdown-langs dropdown-menu">
-								<li><a tabindex="-1" href="{{route('homeIngles')}}"><img class="flag-lang" src="smarty/HTML/assets/images/flags/us.png" width="16" height="11" alt="lang" /> INGLÉS</a></li>
+								<li><a tabindex="-1" href="{{route('homeIngles')}}"><img class="flag-lang" src="smarty/HTML/assets/images/flags/us.png" width="16" height="11" alt="lang" /> ENGLISH</a></li>
 
 							
 								<li class="divider"></li>
-								<li><a tabindex="-1" href="{{route('home')}}"><img class="flag-lang" src="smarty/HTML/assets/images/flags/es.png" width="16" height="11" alt="lang" /> ESPAÑOL</a></li>
 							-->
+								<li><a tabindex="-1" href="{{route('home')}}"><img class="flag-lang" src="../smarty/HTML/assets/images/flags/es.png" width="16" height="11" alt="lang" /> SPANISH</a></li>
+						
 	
 							</ul>
 							
@@ -85,6 +88,6 @@
 			-->
 			<div id="header" class="sticky header-sm  clearfix">
 
-				@include('opcionesMenu')
+				@include('en.opcionesMenu')
 
 			</div>

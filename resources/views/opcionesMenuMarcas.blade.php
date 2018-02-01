@@ -163,6 +163,9 @@
 
 	</li>	
 	
+
+<!--
+
 	<li>		
 
 		@if(Route::current()->getName() == 'home')
@@ -194,5 +197,5 @@
 
 		@endif		
 	</li>
-
+-->
 </ul>
