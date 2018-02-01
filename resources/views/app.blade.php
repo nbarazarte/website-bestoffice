@@ -4,7 +4,7 @@
 <!--[if gt IE 9]><!-->	<html> <!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
-		<title>Best Office | Artículos de oficina, material escolar, papelería y toner.</title>
+		<title>BO | Artículos de oficina, material escolar, papelería y toner.</title>
 		<meta name="keywords" content="articulos de oficina, articulos escolares, artículos escolares, artículos de oficina, material de oficina, papeleria, papelería, resmas, resma, chamex, paper, hammermill, reprograf, suzano report premium, premium, laser, toner, post it, cuadernos, utiles escolares, útiles escolares, hojas blancas, oficina, marcadores, libretas, cuaderno, libreta, impresoras, hp, canon, samsung, epson." />
 		<meta name="description" content="" />
 		<meta name="Author" content="Neil Barazarte [ezebarazarte@gmail.com]" />
