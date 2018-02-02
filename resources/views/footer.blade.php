@@ -15,7 +15,9 @@
 
 								</li>
 
-								<li>El nombre y logo de BO son marcas registradas. J-409988708</li>
+								<!--
+									<li>El nombre y logo de BO son marcas registradas. J-409988708</li>
+								-->
 								
 							</ul>
 

@@ -13,7 +13,8 @@
 								data-elementdelay="0.1" 
 								data-endelementdelay="0.1" 
 								data-endspeed="300">
-								<span class="weight-300 font-lato">+ y Resaltadores</span>
+								<!--<span class="weight-300 font-lato">+ y Resaltadores</span>-->
+								<span class="weight-300 font-lato">+ tu oficina</span>
 							</div>
 
 							<div class="tp-caption mediumlarge_light_white lft tp-resizeme" 
@@ -27,7 +28,8 @@
 								data-elementdelay="0.1" 
 								data-endelementdelay="0.1" 
 								data-endspeed="300">
-								<span class="weight-300 font-lato">+ Marcadores </span>
+								<!--<span class="weight-300 font-lato">+ Marcadores </span>-->
+								<span class="weight-300 font-lato">+ Todo para </span>
 							</div>
 
 							<div class="tp-caption block_white sfl tp-resizeme" 
@@ -41,7 +43,8 @@
 								data-elementdelay="0.1" 
 								data-endelementdelay="0.1" 
 								data-endspeed="300">
-								<span class="weight-300 font-lato">El texto puede variar en función del color en tres dimensiones diferentes</span>
+								<!--<span class="weight-300 font-lato">El texto puede variar en función del color en tres dimensiones diferentes</span>-->
+								<span class="weight-300 font-lato">Trabajamos para ofrecerte los mejores productos en artículos de oficina</span>
 							</div>
 
 							<div class="tp-caption block_theme_color sfr tp-resizeme" 
@@ -55,7 +58,8 @@
 								data-elementdelay="0.1" 
 								data-endelementdelay="0.1" 
 								data-endspeed="300">
-								<span class="weight-300 font-lato">Resalta tus ideas, ¡color sin limites!</span>
+								<!--<span class="weight-300 font-lato">Resalta tus ideas, ¡color sin limites!</span>-->
+								<span class="weight-300 font-lato">¡Muy pronto! Best Office será tu mejor opción. </span>
 							</div>
 
 						</li>

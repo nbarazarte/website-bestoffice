@@ -37,11 +37,11 @@
 
 					<!-- SLIDE  -->
 
-					<!-- SLIDE 2 
+					<!-- SLIDE 2 -->
 
-						include('slider2')
+						@include('slider2')
 
-					 SLIDE -->		
+					 <!-- SLIDE -->		
 
 					<!-- SLIDE 3 -->
 
@@ -49,11 +49,11 @@
 						
 					<!-- SLIDE  -->
 
-					<!-- SLIDE 4 
+					<!-- SLIDE 4 -->
 
-						include('slider4')
+						@include('slider4')
 
-					 SLIDE -->					
+					<!-- SLIDE -->					
 					
 					<!-- SLIDE 5 -->
 

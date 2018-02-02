@@ -9,7 +9,7 @@
 
 						<!-- Logo -->
 						<a class="logo pull-left scrollTo" href="#top">
-							<img src="smarty/HTML/assets/images/logoBO1.png" alt="" />
+							<img src="smarty/HTML/assets/images/logoBestOffice.png" alt="" />
 						</a>
 
 						<!-- 

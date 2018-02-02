@@ -25,7 +25,7 @@
 										data-elementdelay="0.1" 
 										data-endelementdelay="0.1" 
 										data-endspeed="300">
-											La mejor <br /> opción en
+											¡PROXIMAMENTE!, La mejor <br /> opción en
 									</div>
 
 									<div class="tp-caption block_theme_color lfl start" 
