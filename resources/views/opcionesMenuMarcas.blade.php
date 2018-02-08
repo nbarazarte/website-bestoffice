@@ -162,8 +162,40 @@
 		@endif
 
 	</li>	
-	
 
+	<li>
+		
+		@if(Route::current()->getName() == 'home')
+
+			<a href="#hpOffice">HP OFFICE</a>
+
+		@elseif(
+
+			(Route::current()->getName() == 'terminos') || 
+			(Route::current()->getName() == 'politicas') || 
+			(Route::current()->getName() == 'mapa') || 
+			(Route::current()->getName() == 'trabaja') ||
+			(Route::current()->getName() == 'colorear') 
+			
+		)
+			@if( $_SERVER['SERVER_NAME'] == '127.0.0.1' )
+
+				<a href="http://{{ $_SERVER['SERVER_NAME'] }}:8000#hpOffice">
+					HP OFFICE
+				</a>
+
+			@else
+
+				<a href="http://{{ $_SERVER['SERVER_NAME'] }}#hpOffice">
+					HP OFFICE
+				</a>
+
+			@endif
+
+		@endif
+
+	</li>		
+	
 <!--
 
 	<li>		

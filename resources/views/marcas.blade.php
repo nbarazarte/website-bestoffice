@@ -166,7 +166,46 @@
 
 				</div>
 			</section>
-			<!-- /hammermill -->			
+			<!-- /hammermill -->	
+
+			<!-- hp -->
+			<section id="hpOffice" class="nopadding-bottom">
+				<div class="container">
+
+					<div class="row">
+
+						<div class="col-md-6 col-sm-6">
+							<header class="margin-bottom-40">
+								<h1 class="weight-300">HP Paper</h1>
+								<h2 class="weight-300 letter-spacing-1 size-13"><span>VELOCIDAD SIN ATASCOS.</span></h2>
+							</header>
+
+							<p style="text-align: justify;">
+								Indicado para grandes volúmenes de impresión y copias en equipos de alta velocidad.
+							</p>
+
+
+							<p style="text-align: justify;">
+								Beneficios:
+							</p>
+
+							<p style="text-align: justify;">
+								
+								Los papeles HP Office producen menos obstrucciones en impresoras y copiadoras y, por ser alcalinos, producen documentos más duraderos. Además, la marca es fabricada con la tecnología Colorlok®, innovación que posibilita colores más brillantes, secado de tinta más rápido, menos riesgos de borrones y color negro más intenso.
+							
+							</p>
+							
+						</div>
+
+						<div class="col-md-6 col-sm-6">
+							<img class="img-responsive wow fadeIn" data-wow-delay="0.6s" src="smarty/HTML/assets/images/demo/hpPapers.jpg" alt="" />
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<!-- /hp -->					
 
 			<!-- premiun 
 				include('marcaPremium')
