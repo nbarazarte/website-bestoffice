@@ -176,7 +176,7 @@
 
 						<div class="col-md-6 col-sm-6">
 							<header class="margin-bottom-40">
-								<h1 class="weight-300">HP Paper</h1>
+								<h1 class="weight-300">HP Office</h1>
 								<h2 class="weight-300 letter-spacing-1 size-13"><span>VELOCIDAD SIN ATASCOS.</span></h2>
 							</header>
 
