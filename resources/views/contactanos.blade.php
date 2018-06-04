@@ -151,9 +151,9 @@
 
 							<p>
 								<span class="block"><strong><i class="fa fa-map-marker"></i> Dirección:</strong> Calle Zona Rental, Edif. Andrés Germán Otero, Piso PB, Ofic. 1. Urb. Terrazas del Ávila. Caracas-Venezuela.</span>
-								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-212-204-24-31">+58 (212) 241.78.28 </a></span>
-								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-212-204-24-31">+58 (212) 242.10.38 </a></span>
-								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-212-204-24-31">+58 (412) 996.13.01 </a></span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-212-243-55-30">+58 (212) 243.55.30 </a></span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-212-242-42-72">+58 (212) 242.42.72 </a></span>
+								<span class="block"><strong><i class="fa fa-phone"></i> Teléfono:</strong> <a href="tel:+58-412-996-13-01">+58 (412) 996.13.01 </a></span>
 								<span class="block"><strong><i class="fa fa-envelope"></i> Correo Electrónico:</strong> <a href="mailto:ventas@solucionesbestoffice.com">ventas@solucionesbestoffice.com</a></span>
 							</p>
 
