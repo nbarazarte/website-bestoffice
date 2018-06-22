@@ -125,6 +125,9 @@
 
 						</ul>
 						&copy; 2018 BO. Todos los derechos reservados.
+						<div class="center">
+							Developed by <a href="https://www.behance.net/ezebarazar16c8" target="_blank" title="Ver perfil www.behance.net"><strong>Neil Barazarte</strong></a>
+						</div>
 					</div>
 				</div>
 			</footer>			
